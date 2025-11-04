@@ -29,7 +29,7 @@
 "extract","","https://github.com/datashield/dsBase/blob/v6.1/R/extract.R","smk",100,"https://github.com/datashield/dsBase/blob/v6.1/tests/testthat/test-smk-extract.R","48","0","0","0","0.114"
 "getWGSRDS","","https://github.com/datashield/dsBase/blob/v6.1/R/getWGSRDS.R","smk",80,"https://github.com/datashield/dsBase/blob/v6.1/tests/testthat/test-smk-getWGSRDS.R","60","0","0","0","0.337"
 "isNaDS","","https://github.com/datashield/dsBase/blob/v6.1/R/isNaDS.R","smk",100,"https://github.com/datashield/dsBase/blob/v6.1/tests/testthat/test-smk-isNaDS.R","18","0","0","0","0.049"
-"isValidDS","","https://github.com/datashield/dsBase/blob/v6.1/R/isValidDS.R","smk",64.71,"https://github.com/datashield/dsBase/blob/v6.1/tests/testthat/test-smk-isValidDS.R","54","0","0","0","0.151"
+"isValidDS","",,"smk",64.71,"https://github.com/datashield/dsBase/blob/v6.1/tests/testthat/test-smk-isValidDS.R","54","0","0","0","0.151"
 "kurtosisDS1","","https://github.com/datashield/dsBase/blob/v6.1/R/kurtosisDS1.R","smk",89.47,"https://github.com/datashield/dsBase/blob/v6.1/tests/testthat/test-smk-kurtosisDS1.R","24","0","0","0","0.094"
 "kurtosisDS2","","https://github.com/datashield/dsBase/blob/v6.1/R/kurtosisDS2.R","smk",76.92,"https://github.com/datashield/dsBase/blob/v6.1/tests/testthat/test-smk-kurtosisDS2.R","10","0","0","0","0.034"
 "lengthDS","","https://github.com/datashield/dsBase/blob/v6.1/R/lengthDS.R","smk",100,"https://github.com/datashield/dsBase/blob/v6.1/tests/testthat/test-smk-lengthDS.R","8","0","0","0","0.043"
