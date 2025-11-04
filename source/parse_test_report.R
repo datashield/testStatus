@@ -1,4 +1,4 @@
-# This script was created to parse the outputs from testthat and covr for 
+# This script was created to parse the outputs from testthat and covr for
 # DataSHIELD packages (e.g., dsBase). The input files are generate via a GHA
 # workflow (see URL_TO_GHA_WORKFLOW).
 #
@@ -7,7 +7,7 @@
 
 # SETUP ----
 args <- commandArgs(trailingOnly = TRUE) # read CL arguments
-# 1st argument: INPUT_DIR 
+# 1st argument: INPUT_DIR
 if (length(args) >= 1) {
   INPUT_DIR <- args[1]
 } else {
@@ -71,6 +71,8 @@ tests_tbl <- tests_xml |>
 # AGGREGATE RESULTS ----
 message("Aggregating results...")
 tests_tbl_v2 <- tests_tbl |>
+  # drop rows without actual tests
+  dplyr::filter(tests > 0) |>
   # extract details from testsuite
   dplyr::mutate(
     # extract function name
