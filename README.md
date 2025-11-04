@@ -22,7 +22,33 @@ template for a Quarto report
 ([source/test_report.qmd](source/test_report.qmd)) to present the
 results of the tests in a dashboard.
 
-The workflow follows the following stream:
+The workflow follows the following steps:
 
 `Repository with unit tests` \>\>\> `Repository with results` \>\>\>
 `GitHub pages`
+
+<br />
+
+#### Render locally
+
+1.  Parse `./logs/` and identify directories with a valid `.xml` file
+    (`testthat` output).
+
+    ``` r
+    source("source/parse_logs.R")
+    ```
+
+2.  (Optional) To clear the repo from old intermediate outputs (`Rds`
+    files), run the following before step 1:
+
+    ``` r
+    # delete old .Rds files in logs
+    list.files("logs", ".Rds", ignore.case = TRUE, full.names = TRUE, recursive = TRUE) |>
+      unlink()
+    ```
+
+3.  Render a website with all the test results:
+
+    ``` sh
+    Rscript --verbose --vanilla source/render_docs.R docs docs TRUE
+    ```
