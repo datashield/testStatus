@@ -45,6 +45,10 @@ The workflow follows the following steps:
     # delete old .Rds files in logs
     list.files("logs", ".Rds", ignore.case = TRUE, full.names = TRUE, recursive = TRUE) |>
       unlink()
+
+    # delete old .csv files in logs
+    list.files("logs", "results.csv", ignore.case = TRUE, full.names = TRUE, recursive = TRUE) |>
+      unlink()
     ```
 
 3.  Render a website with all the test results:
