@@ -1,0 +1,10 @@
+  <testsuite name="ds.abs::perf:0" timestamp="2025-10-28T12:38:05Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="37.358">
+  <testsuite name="ds.asInteger::perf:0" timestamp="2025-10-28T12:38:43Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="37.635">
+  <testsuite name="ds.asList::perf:0" timestamp="2025-10-28T12:39:20Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="37.408">
+  <testsuite name="ds.asNumeric::perf:0" timestamp="2025-10-28T12:39:57Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="37.546">
+  <testsuite name="ds.class::perf::combine:0" timestamp="2025-10-28T12:41:12Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="37.337">
+  <testsuite name="ds.colnames::perf:0" timestamp="2025-10-28T12:41:50Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="37.41">
+  <testsuite name="ds.exists::perf::combine:0" timestamp="2025-10-28T12:42:27Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="37.373">
+  <testsuite name="ds.length::perf::combine:0" timestamp="2025-10-28T12:43:05Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="37.377">
+  <testsuite name="ds.mean::perf::combine:0" timestamp="2025-10-28T12:43:42Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="37.31">
+  <testsuite name="ds.mean::perf::split:0" timestamp="2025-10-28T12:44:12Z" hostname="runnervmwhb2z" tests="2" skipped="0" failures="1" errors="0" time="30.032">
