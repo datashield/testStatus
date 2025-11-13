@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="ds.gee::arg::setup" timestamp="2019-11-11T03:35:08Z" hostname="fv-az32" tests="0" skipped="0" failures="0" errors="0" time="0"/>
-  <testsuite name="ds.gee::arg::test errors" timestamp="2019-11-11T03:35:15Z" hostname="fv-az32" tests="3" skipped="0" failures="0" errors="0" time="7.283">
-    <testcase time="6.506" classname="ds.gee_arg_test_errors" name="gee_erros"/>
-    <testcase time="0.44" classname="ds.gee_arg_test_errors" name="gee_erros"/>
-    <testcase time="0.337000000000002" classname="ds.gee_arg_test_errors" name="gee_erros"/>
-  </testsuite>
-</testsuites>
