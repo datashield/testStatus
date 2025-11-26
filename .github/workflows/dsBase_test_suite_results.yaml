@@ -45,7 +45,6 @@ jobs:
 
           # set up docs and logs directories
           mkdir -p logs/dsBase/${branch}/${runid}
-          mkdir -p docs/dsBase/${branch}/${runid}
 
           # set up latest directory
           rm -rf docs/dsBase/${branch}/latest
@@ -53,7 +52,6 @@ jobs:
 
           # copy new contents
           cp -r ../logs-download/logs/dsBase/${branch}/${runid}/* logs/dsBase/${branch}/${runid}/
-          cp -r ../logs-download/docs/dsBase/${branch}/${runid}/* docs/dsBase/${branch}/${runid}/
           cp -r ../logs-download/docs/dsBase/${branch}/latest/* docs/dsBase/${branch}/latest/
 
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
