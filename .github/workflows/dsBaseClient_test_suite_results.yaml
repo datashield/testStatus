@@ -2,7 +2,7 @@ name: Collect dsBaseClient test suite results
 
 on:
   schedule:
-    - cron: "0 2 * * *"         # run at 2AM UTC
+    - cron: "0 1 * * 1"        # run at 1AM UTC on Mondays
   workflow_dispatch:            # allow manual triggering
 
 jobs:
@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write   # we need to push into testStatus
-      
+
     env:
       REPO_OWNER: ${{ github.repository_owner }}
       TARGET_BRANCH: v6.3.5-dev             # Update to latest version
       TARGET_OUTPUTS: dsbaseclient-logs
       TARGET_PROJECT: dsBaseClient
       TARGET_WORKFLOW: dsBaseClient_test_suite.yaml
-      
+
     steps:
       - name: Checkout testStatus
         uses: actions/checkout@v4
@@ -42,15 +42,15 @@ jobs:
           base_path="../logs-download/logs/dsBaseClient/${{ env.TARGET_BRANCH }}"
           latest_dir=$(ls -d "$base_path"/*/ 2>/dev/null | sort -V | head -n 1)
           runid=$(basename "$latest_dir")
-          
+
           # set up docs and logs directories
           mkdir -p logs/dsBaseClient/${branch}/${runid}
           mkdir -p docs/dsBaseClient/${branch}/${runid}
-          
+
           # set up latest directory
           rm -rf docs/dsBaseClient/${branch}/latest
           mkdir -p docs/dsBaseClient/${branch}/latest
-          
+
           # copy new contents
           cp -r ../logs-download/logs/dsBaseClient/${branch}/${runid}/* logs/dsBaseClient/${branch}/${runid}/
           cp -r ../logs-download/docs/dsBaseClient/${branch}/${runid}/* docs/dsBaseClient/${branch}/${runid}/
