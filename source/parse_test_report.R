@@ -47,8 +47,11 @@ valid_url <- function(URL) {
 message("Loading results...")
 # Load coverage output
 covr_csv <- file.path(INPUT_DIR, "coveragelist.csv") |>
-  readr::read_csv(show_col_types = FALSE, skip = 1,
-                  col_names = c("name", "file_coverage", "total_coverage"))
+  readr::read_csv(
+    show_col_types = FALSE,
+    skip = 1,
+    col_names = c("name", "file_coverage", "total_coverage")
+  )
 
 # Load test results
 tests_xml <- file.path(INPUT_DIR, "test_results.xml") |>
@@ -105,8 +108,16 @@ tests_tbl_v2 <- tests_tbl |>
   tidyr::fill(test_class, .direction = "down") |>
   dplyr::mutate(
     # create links to function script and test file
-    github_script_link = file.path(GH_REPO, "R", paste0(fn_name, fn_name_sub, ".R")),
-    github_test_link = file.path(GH_REPO, "tests/testthat", paste0("test-", test_class, "-", fn_name, fn_name_sub, ".R"))
+    github_script_link = file.path(
+      GH_REPO,
+      "R",
+      paste0(fn_name, fn_name_sub, ".R")
+    ),
+    github_test_link = file.path(
+      GH_REPO,
+      "tests/testthat",
+      paste0("test-", test_class, "-", fn_name, fn_name_sub, ".R")
+    )
   )
 
 # aggregate results by function name and test class
@@ -120,7 +131,14 @@ tests_tbl_v3 <- tests_tbl_v2 |>
     time = sum(time, na.rm = TRUE),
   ) |>
   dplyr::ungroup() |>
-  dplyr::select(fn_name, fn_name_sub, test_class, timestamp, tests:github_test_link, -has_test_class) |>
+  dplyr::select(
+    fn_name,
+    fn_name_sub,
+    test_class,
+    timestamp,
+    tests:github_test_link,
+    -has_test_class
+  ) |>
   dplyr::distinct(fn_name, fn_name_sub, test_class, .keep_all = TRUE)
 
 # check/validate URLs
@@ -131,7 +149,11 @@ tests_tbl_v4 <- tests_tbl_v3 |>
       purrr::map(valid_url, .progress = TRUE),
     valid_github_test_link = github_test_link |>
       purrr::map(valid_url, .progress = TRUE),
-    github_script_link = ifelse(valid_github_script_link, github_script_link, NA),
+    github_script_link = ifelse(
+      valid_github_script_link,
+      github_script_link,
+      NA
+    ),
     github_test_link = ifelse(valid_github_test_link, github_test_link, NA)
   )
 
@@ -144,6 +166,14 @@ covr_csv_2 <- covr_csv |>
       basename() |>
       stringr::str_remove("\\.R") |>
       stringr::str_extract(FN_NAME_PATTERN),
+    # review if `fn_name` is missing
+    fn_name = ifelse(
+      is.na(fn_name),
+      name |>
+        stringr::str_remove("R\\/*") |>
+        stringr::str_remove("\\.R"),
+      fn_name
+    ),
     # extract any additional components to the test file
     fn_name_sub = name |>
       basename() |>
@@ -172,7 +202,13 @@ covr_and_test_results_v2 <- covr_and_test_results |>
   ) |>
   dplyr::arrange(fn_name) |>
   tidyr::pivot_longer(
-    cols = -c(fn_name, fn_name_sub, github_script_link, test_class, file_coverage),
+    cols = -c(
+      fn_name,
+      fn_name_sub,
+      github_script_link,
+      test_class,
+      file_coverage
+    ),
     values_transform = as.character
   ) |>
   dplyr::group_by(test_class) |>
@@ -182,7 +218,15 @@ covr_and_test_results_v3 <- covr_and_test_results_v2 |>
   purrr::map(function(x) {
     x |>
       dplyr::distinct() |>
-      tidyr::pivot_wider(id_cols = c(fn_name, fn_name_sub, github_script_link, test_class, file_coverage)) |>
+      tidyr::pivot_wider(
+        id_cols = c(
+          fn_name,
+          fn_name_sub,
+          github_script_link,
+          test_class,
+          file_coverage
+        )
+      ) |>
       dplyr::rename(
         script_url = github_script_link,
         test_url = github_test_link
@@ -190,8 +234,14 @@ covr_and_test_results_v3 <- covr_and_test_results_v2 |>
   })
 
 covr_and_test_results_v3 |>
-  readr::write_rds(file.path(OUTPUT_DIR, paste0(Sys.Date(), "_covr_and_test_results.Rds")))
+  readr::write_rds(file.path(
+    OUTPUT_DIR,
+    paste0(Sys.Date(), "_covr_and_test_results.Rds")
+  ))
 
 covr_and_test_results_v3 |>
   purrr::reduce(dplyr::bind_rows) |>
-  readr::write_excel_csv(file.path(OUTPUT_DIR, paste0(Sys.Date(), "_covr_and_test_results.csv")), na = "")
+  readr::write_excel_csv(
+    file.path(OUTPUT_DIR, paste0(Sys.Date(), "_covr_and_test_results.csv")),
+    na = ""
+  )
