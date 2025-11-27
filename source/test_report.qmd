@@ -105,7 +105,7 @@ test_files_rds[length(test_files_rds)] |>
 # if a session_info_* file was found, then load the details here:
 if (length(session_info_txt) == 1) {
   cat("\n\n### Session information\n\n")
-  paste0("\n> ", readLines(session_info_txt), collapse = "\n") |>
+  paste0("\n> ", readLines(session_info_txt)) |>
     cat()
 }
 ```
