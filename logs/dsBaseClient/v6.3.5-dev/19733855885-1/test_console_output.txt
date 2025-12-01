@@ -1,0 +1,2187 @@
+Loading required package: Matrix
+Loading required package: opalr
+Loading required package: httr
+Loading required package: MolgenisAuth
+Loading required package: rly
+✔ | F W  S  OK | Context
+
+⠏ |          0 | _-vm-test                                                      
+⠋ |          1 | _-vm-test                                                      
+✔ |          1 | _-vm-test
+
+⠏ |          0 | arg-ds.asCharacter                                             
+⠋ |          1 | arg-ds.asCharacter                                             
+✔ |          1 | arg-ds.asCharacter [9.0s]
+
+⠏ |          0 | arg-ds.asDataMatrix                                            
+⠋ |          1 | arg-ds.asDataMatrix                                            
+✔ |          1 | arg-ds.asDataMatrix [6.3s]
+
+⠏ |          0 | arg-ds.asFactor                                                
+⠋ |          1 | arg-ds.asFactor                                                
+✔ |          3 | arg-ds.asFactor [6.4s]
+
+⠏ |          0 | arg-ds.asInteger                                               
+⠋ |          1 | arg-ds.asInteger                                               
+✔ |          1 | arg-ds.asInteger [6.2s]
+
+⠏ |          0 | arg-ds.asList                                                  
+⠋ |          1 | arg-ds.asList                                                  
+✔ |          1 | arg-ds.asList [6.3s]
+
+⠏ |          0 | arg-ds.asLogical                                               
+⠋ |          1 | arg-ds.asLogical                                               
+✔ |          1 | arg-ds.asLogical [6.2s]
+
+⠏ |          0 | arg-ds.asMatrix                                                
+⠋ |          1 | arg-ds.asMatrix                                                
+✔ |          1 | arg-ds.asMatrix [6.1s]
+
+⠏ |          0 | arg-ds.asNumeric                                               
+⠋ |          1 | arg-ds.asNumeric                                               
+✔ |          1 | arg-ds.asNumeric [6.2s]
+
+⠏ |          0 | arg-ds.assign                                                  
+⠋ |          1 | arg-ds.assign                                                  
+✔ |          1 | arg-ds.assign [6.1s]
+
+⠏ |          0 | arg-ds.auc                                                     
+✔ |          2 | arg-ds.auc
+
+⠏ |          0 | arg-ds.Boole                                                   
+⠋ |          1 | arg-ds.Boole                                                   
+✔ |          5 | arg-ds.Boole [6.2s]
+
+⠏ |          0 | arg-ds.c                                                       
+⠋ |          1 | arg-ds.c                                                       
+✔ |          1 | arg-ds.c [6.0s]
+
+⠏ |          0 | arg-ds.cbind                                                   
+⠋ |          1 | arg-ds.cbind                                                   
+⠙ |          2 | arg-ds.cbind                                                   
+✔ |          2 | arg-ds.cbind [8.9s]
+
+⠏ |          0 | arg-ds.changeRefGroup                                          
+⠋ |          1 | arg-ds.changeRefGroup                                          
+⠹ |          3 | arg-ds.changeRefGroup                                          
+✔ |          3 | arg-ds.changeRefGroup [6.2s]
+
+⠏ |          0 | arg-ds.class                                                   
+⠋ |          1 | arg-ds.class                                                   
+✔ |          1 | arg-ds.class [6.0s]
+
+⠏ |          0 | arg-ds.colnames                                                
+⠋ |          1 | arg-ds.colnames                                                
+✔ |          1 | arg-ds.colnames [6.2s]
+
+⠏ |          0 | arg-ds.completeCases                                           
+⠋ |          1 | arg-ds.completeCases                                           
+✔ |          1 | arg-ds.completeCases [6.1s]
+
+⠏ |          0 | arg-ds.cor                                                     
+⠋ |          1 | arg-ds.cor                                                     
+⠙ |          2 | arg-ds.cor                                                     
+⠹ |          3 | arg-ds.cor                                                     
+✔ |          3 | arg-ds.cor [6.7s]
+
+⠏ |          0 | arg-ds.corTest                                                 
+⠋ |          1 | arg-ds.corTest                                                 
+✔ |          2 | arg-ds.corTest [6.4s]
+
+⠏ |          0 | arg-ds.cov                                                     
+⠋ |          1 | arg-ds.cov                                                     
+⠙ |          2 | arg-ds.cov                                                     
+⠹ |          3 | arg-ds.cov                                                     
+✔ |          3 | arg-ds.cov [6.9s]
+
+⠏ |          0 | arg-ds.dataFrame                                               
+⠋ |          1 | arg-ds.dataFrame                                               
+⠙ |          2 | arg-ds.dataFrame                                               
+✔ |          2 | arg-ds.dataFrame [6.3s]
+
+⠏ |          0 | arg-ds.dataFrameFill                                           
+⠋ |          1 | arg-ds.dataFrameFill                                           
+⠙ |          2 | arg-ds.dataFrameFill                                           
+⠹ |          3 | arg-ds.dataFrameFill                                           
+✔ |          3 | arg-ds.dataFrameFill [6.4s]
+
+⠏ |          0 | arg-ds.dataFrameSort                                           
+⠋ |          1 | arg-ds.dataFrameSort                                           
+
+⠴ |          6 | arg-ds.dataFrameSort                                           
+✔ |         10 | arg-ds.dataFrameSort [6.7s]
+
+⠏ |          0 | arg-ds.dataFrameSubset                                         
+⠋ |          1 | arg-ds.dataFrameSubset                                         
+⠼ |          5 | arg-ds.dataFrameSubset                                         
+⠧ |          8 | arg-ds.dataFrameSubset                                         
+⠹ |         13 | arg-ds.dataFrameSubset                                         
+⠧ |         18 | arg-ds.dataFrameSubset                                         
+⠸ |         24 | arg-ds.dataFrameSubset                                         
+⠧ |         28 | arg-ds.dataFrameSubset                                         
+✔ |         30 | arg-ds.dataFrameSubset [6.8s]
+
+⠏ |          0 | arg-ds.dim                                                     
+⠋ |          1 | arg-ds.dim                                                     
+⠙ |          2 | arg-ds.dim                                                     
+✔ |          3 | arg-ds.dim [6.3s]
+
+⠏ |          0 | arg-ds.exists                                                  
+⠋ |          1 | arg-ds.exists                                                  
+✔ |          1 | arg-ds.exists [6.1s]
+
+⠏ |          0 | arg-ds.exp                                                     
+⠋ |          1 | arg-ds.exp                                                     
+✔ |          1 | arg-ds.exp [6.0s]
+
+⠏ |          0 | arg-ds.foobar                                                  
+⠋ |          1 | arg-ds.foobar                                                  
+⠴ |         16 | arg-ds.foobar                                                  
+⠧ |         28 | arg-ds.foobar                                                  
+✔ |         30 | arg-ds.foobar [6.3s]
+
+⠏ |          0 | arg-ds.gamlss                                                  
+⠋ |          1 | arg-ds.gamlss                                                  
+✔ |          3 | arg-ds.gamlss [6.0s]
+
+⠏ |          0 | arg-ds.glm                                                     
+⠋ |          1 | arg-ds.glm                                                     
+⠙ |          2 | arg-ds.glm                                                     
+✔ |          2 | arg-ds.glm [6.3s]
+
+⠏ |          0 | arg-ds.glmerSLMA                                               
+⠋ |          1 | arg-ds.glmerSLMA                                               
+⠼ |          5 | arg-ds.glmerSLMA                                               
+⠋ |         11 | arg-ds.glmerSLMA                                               
+✔ |         19 | arg-ds.glmerSLMA [7.0s]
+
+⠏ |          0 | arg-ds.glmPredict                                              
+⠋ |          1 | arg-ds.glmPredict                                              
+⠙ |          2 | arg-ds.glmPredict                                              
+⠹ |          3 | arg-ds.glmPredict                                              
+⠦ |          7 | arg-ds.glmPredict                                              
+⠙ |         12 | arg-ds.glmPredict                                              
+⠹ |         13 | arg-ds.glmPredict                                              
+⠦ |         17 | arg-ds.glmPredict                                              
+✔ |         18 | arg-ds.glmPredict [7.6s]
+
+⠏ |          0 | arg-ds.glmSLMA                                                 
+⠋ |          1 | arg-ds.glmSLMA                                                 
+✔ |          6 | arg-ds.glmSLMA [6.4s]
+
+⠏ |          0 | arg-ds.isNA                                                    
+⠋ |          1 | arg-ds.isNA                                                    
+✔ |          1 | arg-ds.isNA [6.1s]
+
+⠏ |          0 | arg-ds.isValid                                                 
+⠋ |          1 | arg-ds.isValid                                                 
+✔ |          2 | arg-ds.isValid [6.2s]
+
+⠏ |          0 | arg-ds.kurtosis                                                
+⠋ |          1 | arg-ds.kurtosis                                                
+⠼ |          5 | arg-ds.kurtosis                                                
+✔ |         10 | arg-ds.kurtosis [6.2s]
+
+⠏ |          0 | arg-ds.length                                                  
+⠋ |          1 | arg-ds.length                                                  
+⠸ |          4 | arg-ds.length                                                  
+✔ |          5 | arg-ds.length [6.4s]
+
+⠏ |          0 | arg-ds.levels                                                  
+⠋ |          1 | arg-ds.levels                                                  
+✔ |          2 | arg-ds.levels [6.1s]
+
+⠏ |          0 | arg-ds.lexis                                                   
+⠋ |          1 | arg-ds.lexis                                                   
+✔ |          7 | arg-ds.lexis [6.0s]
+
+⠏ |          0 | arg-ds.list                                                    
+⠋ |          1 | arg-ds.list                                                    
+✔ |          1 | arg-ds.list [6.0s]
+
+⠏ |          0 | arg-ds.lmerSLMA                                                
+⠋ |          1 | arg-ds.lmerSLMA                                                
+⠸ |          4 | arg-ds.lmerSLMA                                                
+⠼ |          5 | arg-ds.lmerSLMA                                                
+⠙ |         12 | arg-ds.lmerSLMA                                                
+✔ |         14 | arg-ds.lmerSLMA [6.8s]
+
+⠏ |          0 | arg-ds.log                                                     
+⠋ |          1 | arg-ds.log                                                     
+✔ |          1 | arg-ds.log [6.0s]
+
+⠏ |          0 | arg-ds.look                                                    
+⠋ |          1 | arg-ds.look                                                    
+✔ |          1 | arg-ds.look [6.1s]
+
+⠏ |          0 | arg-ds.ls                                                      
+⠋ |          1 | arg-ds.ls                                                      
+✔ |         12 | arg-ds.ls [6.1s]
+
+⠏ |          0 | arg-ds.make                                                    
+⠋ |          1 | arg-ds.make                                                    
+✔ |          1 | arg-ds.make [6.0s]
+
+⠏ |          0 | arg-ds.matrix                                                  
+⠋ |          1 | arg-ds.matrix                                                  
+✔ |          1 | arg-ds.matrix [6.0s]
+
+⠏ |          0 | arg-ds.matrixDet                                               
+⠋ |          1 | arg-ds.matrixDet                                               
+✔ |          1 | arg-ds.matrixDet [5.9s]
+
+⠏ |          0 | arg-ds.matrixDet.report                                        
+⠋ |          1 | arg-ds.matrixDet.report                                        
+✔ |          1 | arg-ds.matrixDet.report [6.0s]
+
+⠏ |          0 | arg-ds.matrixDiag                                              
+⠋ |          1 | arg-ds.matrixDiag                                              
+✔ |          2 | arg-ds.matrixDiag [6.0s]
+
+⠏ |          0 | arg-ds.matrixDimnames                                          
+⠋ |          1 | arg-ds.matrixDimnames                                          
+✔ |          1 | arg-ds.matrixDimnames [6.1s]
+
+⠏ |          0 | arg-ds.matrixInvert                                            
+⠋ |          1 | arg-ds.matrixInvert                                            
+✔ |          1 | arg-ds.matrixInvert [6.0s]
+
+⠏ |          0 | arg-ds.matrixMult                                              
+⠋ |          1 | arg-ds.matrixMult                                              
+✔ |          1 | arg-ds.matrixMult [6.1s]
+
+⠏ |          0 | arg-ds.matrixTranspose                                         
+⠋ |          1 | arg-ds.matrixTranspose                                         
+✔ |          1 | arg-ds.matrixTranspose [6.1s]
+
+⠏ |          0 | arg-ds.mean                                                    
+⠋ |          1 | arg-ds.mean                                                    
+⠹ |          3 | arg-ds.mean                                                    
+✔ |          3 | arg-ds.mean [6.4s]
+
+⠏ |          0 | arg-ds.meanByClass                                             
+⠋ |          1 | arg-ds.meanByClass                                             
+⠙ |          2 | arg-ds.meanByClass                                             
+⠹ |          3 | arg-ds.meanByClass                                             
+✔ |          4 | arg-ds.meanByClass [7.1s]
+
+⠏ |          0 | arg-ds.meanSdGp                                                
+⠋ |          1 | arg-ds.meanSdGp                                                
+✔ |          1 | arg-ds.meanSdGp [6.0s]
+
+⠏ |          0 | arg-ds.merge                                                   
+⠋ |          1 | arg-ds.merge                                                   
+⠹ |          3 | arg-ds.merge                                                   
+⠼ |          5 | arg-ds.merge                                                   
+✔ |          5 | arg-ds.merge [6.3s]
+
+⠏ |          0 | arg-ds.message                                                 
+⠋ |          1 | arg-ds.message                                                 
+✔ |          1 | arg-ds.message [6.1s]
+
+⠏ |          0 | arg-ds.metadata                                                
+⠋ |          1 | arg-ds.metadata                                                
+⠼ |          5 | arg-ds.metadata                                                
+✔ |          8 | arg-ds.metadata [6.5s]
+
+⠏ |          0 | arg-ds.mice                                                    
+⠋ |          1 | arg-ds.mice                                                    
+✔ |          1 | arg-ds.mice [6.0s]
+
+⠏ |          0 | arg-ds.names                                                   
+⠋ |          1 | arg-ds.names                                                   
+⠹ |          3 | arg-ds.names                                                   
+✔ |          7 | arg-ds.names [6.2s]
+
+⠏ |          0 | arg-ds.ns                                                      
+⠋ |          1 | arg-ds.ns                                                      
+✔ |          8 | arg-ds.ns [6.0s]
+
+⠏ |          0 | arg-ds.numNA                                                   
+⠋ |          1 | arg-ds.numNA                                                   
+✔ |          1 | arg-ds.numNA [6.1s]
+
+⠏ |          0 | arg-ds.qlspline                                                
+⠋ |          1 | arg-ds.qlspline                                                
+⠦ |          7 | arg-ds.qlspline                                                
+✔ |         10 | arg-ds.qlspline [6.3s]
+
+⠏ |          0 | arg-ds.quantileMean                                            
+⠋ |          1 | arg-ds.quantileMean                                            
+⠹ |          3 | arg-ds.quantileMean                                            
+✔ |          3 | arg-ds.quantileMean [6.4s]
+
+⠏ |          0 | arg-ds.ranksSecure                                             
+⠋ |          1 | arg-ds.ranksSecure                                             
+⠸ |          4 | arg-ds.ranksSecure                                             
+⠇ |          9 | arg-ds.ranksSecure                                             
+⠹ |         13 | arg-ds.ranksSecure                                             
+⠧ |         18 | arg-ds.ranksSecure                                             
+⠹ |         23 | arg-ds.ranksSecure                                             
+⠸ |         24 | arg-ds.ranksSecure                                             
+✔ |         31 | arg-ds.ranksSecure [10.5s]
+
+⠏ |          0 | arg-ds.rbind                                                   
+⠋ |          1 | arg-ds.rbind                                                   
+✔ |          1 | arg-ds.rbind [6.1s]
+
+⠏ |          0 | arg-ds.rBinom                                                  
+⠋ |          1 | arg-ds.rBinom                                                  
+✔ |          2 | arg-ds.rBinom [6.1s]
+
+⠏ |          0 | arg-ds.recodeLevels                                            
+⠋ |          1 | arg-ds.recodeLevels                                            
+⠹ |          3 | arg-ds.recodeLevels                                            
+⠸ |          4 | arg-ds.recodeLevels                                            
+✔ |          4 | arg-ds.recodeLevels [6.6s]
+
+⠏ |          0 | arg-ds.recodeValues                                            
+⠋ |          1 | arg-ds.recodeValues                                            
+⠙ |          2 | arg-ds.recodeValues                                            
+⠸ |          4 | arg-ds.recodeValues                                            
+⠴ |          6 | arg-ds.recodeValues                                            
+✔ |          7 | arg-ds.recodeValues [6.5s]
+
+⠏ |          0 | arg-ds.rep                                                     
+⠋ |          1 | arg-ds.rep                                                     
+✔ |          1 | arg-ds.rep [6.3s]
+
+⠏ |          0 | arg-ds.replaceNA                                               
+⠋ |          1 | arg-ds.replaceNA                                               
+✔ |          2 | arg-ds.replaceNA [6.2s]
+
+⠏ |          0 | arg-ds.reShape                                                 
+⠋ |          1 | arg-ds.reShape                                                 
+✔ |          4 | arg-ds.reShape [6.2s]
+
+⠏ |          0 | arg-ds.rm                                                      
+⠋ |          1 | arg-ds.rm                                                      
+✔ |          1 | arg-ds.rm [6.3s]
+
+⠏ |          0 | arg-ds.rNorm                                                   
+⠋ |          1 | arg-ds.rNorm                                                   
+✔ |          2 | arg-ds.rNorm [6.0s]
+
+⠏ |          0 | arg-ds.rowColCalc                                              
+⠋ |          1 | arg-ds.rowColCalc                                              
+⠙ |          2 | arg-ds.rowColCalc                                              
+⠹ |          3 | arg-ds.rowColCalc                                              
+✔ |          3 | arg-ds.rowColCalc [6.7s]
+
+⠏ |          0 | arg-ds.rPois                                                   
+⠋ |          1 | arg-ds.rPois                                                   
+✔ |          2 | arg-ds.rPois [6.1s]
+
+⠏ |          0 | arg-ds.rUnif                                                   
+⠋ |          1 | arg-ds.rUnif                                                   
+✔ |          2 | arg-ds.rUnif [6.1s]
+
+⠏ |          0 | arg-ds.sample                                                  
+⠋ |          1 | arg-ds.sample                                                  
+✔ |          3 | arg-ds.sample [6.0s]
+
+⠏ |          0 | arg-ds.seq                                                     
+⠋ |          1 | arg-ds.seq                                                     
+✔ |          1 | arg-ds.seq [6.1s]
+
+⠏ |          0 | arg-ds.setSeed                                                 
+⠋ |          1 | arg-ds.setSeed                                                 
+✔ |          1 | arg-ds.setSeed [6.0s]
+
+⠏ |          0 | arg-ds.skewness                                                
+⠋ |          1 | arg-ds.skewness                                                
+⠧ |          8 | arg-ds.skewness                                                
+✔ |         10 | arg-ds.skewness [6.4s]
+
+⠏ |          0 | arg-ds.subset                                                  
+⠋ |          1 | arg-ds.subset                                                  
+✔ |          1 | arg-ds.subset [6.1s]
+
+⠏ |          0 | arg-ds.subsetByClass                                           
+⠋ |          1 | arg-ds.subsetByClass                                           
+⠙ |          2 | arg-ds.subsetByClass                                           
+✔ |          2 | arg-ds.subsetByClass [6.2s]
+
+⠏ |          0 | arg-ds.summary                                                 
+⠋ |          1 | arg-ds.summary                                                 
+✔ |          1 | arg-ds.summary [6.0s]
+
+⠏ |          0 | arg-ds.table                                                   
+⠋ |          1 | arg-ds.table                                                   
+⠙ |          2 | arg-ds.table                                                   
+⠼ |          5 | arg-ds.table                                                   
+⠧ |          8 | arg-ds.table                                                   
+⠋ |         11 | arg-ds.table                                                   
+✔ |         11 | arg-ds.table [7.4s]
+
+⠏ |          0 | arg-ds.table1D                                                 
+⠋ |          1 | arg-ds.table1D                                                 
+⠙ |          2 | arg-ds.table1D                                                 
+✔ |          2 | arg-ds.table1D [6.3s]
+
+⠏ |          0 | arg-ds.table2D                                                 
+⠋ |          1 | arg-ds.table2D                                                 
+✔ |          1 | arg-ds.table2D [6.0s]
+
+⠏ |          0 | arg-ds.tapply.assign                                           
+⠋ |          1 | arg-ds.tapply.assign                                           
+⠹ |          3 | arg-ds.tapply.assign                                           
+⠦ |          7 | arg-ds.tapply.assign                                           
+✔ |          8 | arg-ds.tapply.assign [6.3s]
+
+⠏ |          0 | arg-ds.tapply                                                  
+⠋ |          1 | arg-ds.tapply                                                  
+⠦ |          7 | arg-ds.tapply                                                  
+✔ |          8 | arg-ds.tapply [6.2s]
+
+⠏ |          0 | arg-ds.testObjExists                                           
+⠋ |          1 | arg-ds.testObjExists                                           
+✔ |          1 | arg-ds.testObjExists [6.0s]
+
+⠏ |          0 | arg-ds.unique                                                  
+⠋ |          1 | arg-ds.unique                                                  
+✔ |          2 | arg-ds.unique [6.0s]
+
+⠏ |          0 | arg-ds.unList                                                  
+⠋ |          1 | arg-ds.unList                                                  
+✔ |          1 | arg-ds.unList [6.0s]
+
+⠏ |          0 | arg-ds.var                                                     
+⠋ |          1 | arg-ds.var                                                     
+⠙ |          2 | arg-ds.var                                                     
+✔ |          2 | arg-ds.var [6.5s]
+
+⠏ |          0 | arg-ds.vectorCalc                                              
+⠋ |          1 | arg-ds.vectorCalc                                              
+✔ |          1 | arg-ds.vectorCalc [6.3s]
+
+⠏ |          0 | datachk-ANTHRO                                                 
+⠋ |          1 | datachk-ANTHRO                                                 
+⠴ |          6 | datachk-ANTHRO                                                 
+⠇ |         19 | datachk-ANTHRO                                                 
+⠧ |         28 | datachk-ANTHRO                                                 
+⠙ |         42 | datachk-ANTHRO                                                 
+⠧ |         58 | datachk-ANTHRO                                                 
+⠸ |         74 | datachk-ANTHRO                                                 
+⠏ |         90 | datachk-ANTHRO                                                 
+⠴ |        106 | datachk-ANTHRO                                                 
+✔ |        108 | datachk-ANTHRO [7.3s]
+
+⠏ |          0 | datachk-CLUSTER_INT                                            
+⠋ |          1 | datachk-CLUSTER_INT                                            
+⠼ |          5 | datachk-CLUSTER_INT                                            
+⠇ |         19 | datachk-CLUSTER_INT                                            
+⠴ |         26 | datachk-CLUSTER_INT                                            
+⠙ |         42 | datachk-CLUSTER_INT                                            
+⠧ |         58 | datachk-CLUSTER_INT                                            
+⠸ |         74 | datachk-CLUSTER_INT                                            
+⠏ |         90 | datachk-CLUSTER_INT                                            
+⠴ |        106 | datachk-CLUSTER_INT                                            
+⠙ |        122 | datachk-CLUSTER_INT                                            
+⠧ |        138 | datachk-CLUSTER_INT                                            
+⠸ |        154 | datachk-CLUSTER_INT                                            
+⠏ |        170 | datachk-CLUSTER_INT                                            
+⠴ |        186 | datachk-CLUSTER_INT                                            
+⠙ |        202 | datachk-CLUSTER_INT                                            
+⠧ |        218 | datachk-CLUSTER_INT                                            
+⠸ |        234 | datachk-CLUSTER_INT                                            
+✔ |        236 | datachk-CLUSTER_INT [9.1s]
+
+⠏ |          0 | datachk-CLUSTER_SLO                                            
+⠋ |          1 | datachk-CLUSTER_SLO                                            
+⠸ |          4 | datachk-CLUSTER_SLO                                            
+⠇ |         19 | datachk-CLUSTER_SLO                                            
+⠴ |         26 | datachk-CLUSTER_SLO                                            
+⠙ |         42 | datachk-CLUSTER_SLO                                            
+⠧ |         58 | datachk-CLUSTER_SLO                                            
+⠸ |         74 | datachk-CLUSTER_SLO                                            
+⠏ |         90 | datachk-CLUSTER_SLO                                            
+⠴ |        106 | datachk-CLUSTER_SLO                                            
+⠙ |        122 | datachk-CLUSTER_SLO                                            
+⠧ |        138 | datachk-CLUSTER_SLO                                            
+⠸ |        154 | datachk-CLUSTER_SLO                                            
+⠏ |        170 | datachk-CLUSTER_SLO                                            
+⠙ |        182 | datachk-CLUSTER_SLO                                            
+⠴ |        186 | datachk-CLUSTER_SLO                                            
+⠙ |        202 | datachk-CLUSTER_SLO                                            
+⠧ |        218 | datachk-CLUSTER_SLO                                            
+⠸ |        234 | datachk-CLUSTER_SLO                                            
+✔ |        236 | datachk-CLUSTER_SLO [9.2s]
+
+⠏ |          0 | datachk-CNSIM                                                  
+⠋ |          1 | datachk-CNSIM                                                  
+⠸ |          4 | datachk-CNSIM                                                  
+⠇ |         19 | datachk-CNSIM                                                  
+⠴ |         26 | datachk-CNSIM                                                  
+⠙ |         42 | datachk-CNSIM                                                  
+⠙ |         52 | datachk-CNSIM                                                  
+⠼ |         65 | datachk-CNSIM                                                  
+⠙ |         72 | datachk-CNSIM                                                  
+⠧ |         88 | datachk-CNSIM                                                  
+⠦ |         97 | datachk-CNSIM                                                  
+⠋ |        111 | datachk-CNSIM                                                  
+⠧ |        118 | datachk-CNSIM                                                  
+⠸ |        134 | datachk-CNSIM                                                  
+⠙ |        142 | datachk-CNSIM                                                  
+⠦ |        157 | datachk-CNSIM                                                  
+⠸ |        164 | datachk-CNSIM                                                  
+⠏ |        180 | datachk-CNSIM                                                  
+⠧ |        188 | datachk-CNSIM                                                  
+⠹ |        203 | datachk-CNSIM                                                  
+⠏ |        210 | datachk-CNSIM                                                  
+⠴ |        226 | datachk-CNSIM                                                  
+⠹ |        233 | datachk-CNSIM                                                  
+⠇ |        249 | datachk-CNSIM                                                  
+⠴ |        256 | datachk-CNSIM                                                  
+⠙ |        272 | datachk-CNSIM                                                  
+✔ |        281 | datachk-CNSIM [10.1s]
+
+⠏ |          0 | datachk-DISCORDANT                                             
+⠋ |          1 | datachk-DISCORDANT                                             
+⠸ |          4 | datachk-DISCORDANT                                             
+⠇ |         19 | datachk-DISCORDANT                                             
+⠙ |         32 | datachk-DISCORDANT                                             
+⠙ |         42 | datachk-DISCORDANT                                             
+⠇ |         49 | datachk-DISCORDANT                                             
+⠙ |         62 | datachk-DISCORDANT                                             
+⠸ |         74 | datachk-DISCORDANT                                             
+✔ |         76 | datachk-DISCORDANT [6.9s]
+
+⠏ |          0 | datachk-DNSIM                                                  
+⠋ |          1 | datachk-DNSIM                                                  
+⠸ |          4 | datachk-DNSIM                                                  
+⠇ |         19 | datachk-DNSIM                                                  
+⠴ |         26 | datachk-DNSIM                                                  
+⠙ |         42 | datachk-DNSIM                                                  
+⠧ |         58 | datachk-DNSIM                                                  
+⠸ |         74 | datachk-DNSIM                                                  
+⠏ |         90 | datachk-DNSIM                                                  
+⠴ |        106 | datachk-DNSIM                                                  
+⠙ |        122 | datachk-DNSIM                                                  
+⠧ |        138 | datachk-DNSIM                                                  
+⠸ |        154 | datachk-DNSIM                                                  
+⠏ |        170 | datachk-DNSIM                                                  
+⠴ |        186 | datachk-DNSIM                                                  
+✔ |        188 | datachk-DNSIM [8.4s]
+
+⠏ |          0 | datachk-FACTOR_LEVELS                                          
+⠋ |          1 | datachk-FACTOR_LEVELS                                          
+⠧ |          8 | datachk-FACTOR_LEVELS                                          
+⠇ |         19 | datachk-FACTOR_LEVELS                                          
+⠇ |         29 | datachk-FACTOR_LEVELS                                          
+⠙ |         42 | datachk-FACTOR_LEVELS                                          
+⠧ |         58 | datachk-FACTOR_LEVELS                                          
+⠸ |         74 | datachk-FACTOR_LEVELS                                          
+⠏ |         90 | datachk-FACTOR_LEVELS                                          
+⠴ |        106 | datachk-FACTOR_LEVELS                                          
+⠙ |        122 | datachk-FACTOR_LEVELS                                          
+⠧ |        138 | datachk-FACTOR_LEVELS                                          
+⠸ |        154 | datachk-FACTOR_LEVELS                                          
+⠏ |        170 | datachk-FACTOR_LEVELS                                          
+⠴ |        186 | datachk-FACTOR_LEVELS                                          
+✔ |        188 | datachk-FACTOR_LEVELS [8.4s]
+
+⠏ |          0 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠋ |          1 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠸ |          4 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠼ |         15 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠴ |         26 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠙ |         42 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠧ |         58 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠸ |         74 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠏ |         90 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠴ |        106 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠙ |        122 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠧ |        138 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠸ |        154 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠏ |        170 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠴ |        186 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+⠙ |        202 | datachk-SURVIVAL_EXPAND_WITH_MISSING                           
+✔ |        204 | datachk-SURVIVAL_EXPAND_WITH_MISSING [8.6s]
+
+⠏ |          0 | datachk-TESTING                                                
+⠋ |          1 | datachk-TESTING                                                
+⠴ |          6 | datachk-TESTING                                                
+⠇ |         19 | datachk-TESTING                                                
+⠴ |         26 | datachk-TESTING                                                
+⠙ |         42 | datachk-TESTING                                                
+⠧ |         58 | datachk-TESTING                                                
+⠸ |         74 | datachk-TESTING                                                
+⠧ |         88 | datachk-TESTING                                                
+⠏ |         90 | datachk-TESTING                                                
+⠴ |        106 | datachk-TESTING                                                
+⠙ |        122 | datachk-TESTING                                                
+⠧ |        138 | datachk-TESTING                                                
+⠸ |        154 | datachk-TESTING                                                
+⠏ |        170 | datachk-TESTING                                                
+⠴ |        186 | datachk-TESTING                                                
+⠙ |        202 | datachk-TESTING                                                
+⠧ |        218 | datachk-TESTING                                                
+⠸ |        234 | datachk-TESTING                                                
+⠏ |        250 | datachk-TESTING                                                
+⠴ |        266 | datachk-TESTING                                                
+⠙ |        282 | datachk-TESTING                                                
+⠧ |        298 | datachk-TESTING                                                
+⠸ |        314 | datachk-TESTING                                                
+✔ |        316 | datachk-TESTING [10.1s]
+
+⠏ |          0 | disc-ds.cor                                                    
+⠋ |          1 | disc-ds.cor                                                    
+⠸ |          4 | disc-ds.cor                                                    
+⠦ |         17 | disc-ds.cor                                                    
+⠋ |      1  20 | disc-ds.cor                                                    
+✔ |      2  25 | disc-ds.cor [8.4s]
+
+⠏ |          0 | disc-ds.cov                                                    
+⠋ |          1 | disc-ds.cov                                                    
+⠸ |          4 | disc-ds.cov                                                    
+⠦ |         17 | disc-ds.cov                                                    
+⠧ |      1  27 | disc-ds.cov                                                    
+✔ |      2  37 | disc-ds.cov [8.5s]
+
+⠏ |          0 | disc-ds.levels                                                 
+⠋ |          1 | disc-ds.levels                                                 
+✔ |      1   6 | disc-ds.levels [6.3s]
+
+⠏ |          0 | disc-ds.mean                                                   
+⠋ |      1   0 | disc-ds.mean                                                   
+✔ |      1   0 | disc-ds.mean [6.1s]
+
+⠏ |          0 | disc-ds.meanByClass                                            
+⠋ |      1   0 | disc-ds.meanByClass                                            
+✔ |      1   0 | disc-ds.meanByClass [6.1s]
+
+⠏ |          0 | disc-ds.sample                                                 
+⠋ |          1 | disc-ds.sample                                                 
+⠴ |          6 | disc-ds.sample                                                 
+⠋ |         11 | disc-ds.sample                                                 
+⠴ |         16 | disc-ds.sample                                                 
+⠇ |         19 | disc-ds.sample                                                 
+✔ |         22 | disc-ds.sample [7.3s]
+
+⠏ |          0 | disc-ds.table                                                  
+⠋ |          1 | disc-ds.table                                                  
+⠸ |          4 | disc-ds.table                                                  
+⠋ |         11 | disc-ds.table                                                  
+⠙ |         12 | disc-ds.table                                                  
+⠏ |         20 | disc-ds.table                                                  
+⠹ |         23 | disc-ds.table                                                  
+⠏ |         30 | disc-ds.table                                                  
+✔ |         33 | disc-ds.table [15.2s]
+
+⠏ |          0 | disc-ds.var                                                    
+⠋ |      1   0 | disc-ds.var                                                    
+✔ |      1   0 | disc-ds.var [6.1s]
+
+⠏ |          0 | expt-ds.dataFrame                                              
+⠋ |          1 | expt-ds.dataFrame                                              
+⠸ |          4 | expt-ds.dataFrame                                              
+⠦ |          7 | expt-ds.dataFrame                                              
+⠏ |         10 | expt-ds.dataFrame                                              
+⠹ |         13 | expt-ds.dataFrame                                              
+⠴ |         16 | expt-ds.dataFrame                                              
+⠇ |         19 | expt-ds.dataFrame                                              
+⠙ |         22 | expt-ds.dataFrame                                              
+⠼ |         25 | expt-ds.dataFrame                                              
+⠋ |         31 | expt-ds.dataFrame                                              
+⠦ |         37 | expt-ds.dataFrame                                              
+⠙ |         42 | expt-ds.dataFrame                                              
+⠦ |         47 | expt-ds.dataFrame                                              
+⠙ |         52 | expt-ds.dataFrame                                              
+⠦ |         57 | expt-ds.dataFrame                                              
+⠙ |         62 | expt-ds.dataFrame                                              
+⠦ |         67 | expt-ds.dataFrame                                              
+⠙ |         72 | expt-ds.dataFrame                                              
+⠦ |         77 | expt-ds.dataFrame                                              
+⠼ |         85 | expt-ds.dataFrame                                              
+⠹ |         93 | expt-ds.dataFrame                                              
+⠼ |         95 | expt-ds.dataFrame                                              
+⠦ |         97 | expt-ds.dataFrame                                              
+⠇ |         99 | expt-ds.dataFrame                                              
+⠋ |        101 | expt-ds.dataFrame                                              
+⠹ |        103 | expt-ds.dataFrame                                              
+⠼ |        105 | expt-ds.dataFrame                                              
+⠦ |        107 | expt-ds.dataFrame                                              
+⠇ |        109 | expt-ds.dataFrame                                              
+⠹ |        113 | expt-ds.dataFrame                                              
+⠦ |        117 | expt-ds.dataFrame                                              
+⠋ |        121 | expt-ds.dataFrame                                              
+⠼ |        125 | expt-ds.dataFrame                                              
+⠇ |        129 | expt-ds.dataFrame                                              
+⠹ |        133 | expt-ds.dataFrame                                              
+⠦ |        137 | expt-ds.dataFrame                                              
+⠋ |        141 | expt-ds.dataFrame                                              
+⠼ |        145 | expt-ds.dataFrame                                              
+⠏ |        150 | expt-ds.dataFrame                                              
+⠼ |        155 | expt-ds.dataFrame                                              
+⠇ |        159 | expt-ds.dataFrame                                              
+⠹ |        163 | expt-ds.dataFrame                                              
+⠴ |        166 | expt-ds.dataFrame                                              
+⠇ |        169 | expt-ds.dataFrame                                              
+⠋ |        171 | expt-ds.dataFrame                                              
+✔ |        172 | expt-ds.dataFrame [58.3s]
+
+⠏ |          0 | expt-ds.glmerSLMA                                              
+⠋ |          1 | expt-ds.glmerSLMA                                              
+⠸ |          4 | expt-ds.glmerSLMA                                              
+✔ |          4 | expt-ds.glmerSLMA [7.7s]
+
+⠏ |          0 | expt-ds.lmerSLMA                                               
+⠋ |          1 | expt-ds.lmerSLMA                                               
+⠸ |          4 | expt-ds.lmerSLMA                                               
+✔ |          4 | expt-ds.lmerSLMA [6.9s]
+
+⠏ |          0 | expt-ds.mean                                                   
+⠋ |          1 | expt-ds.mean                                                   
+⠙ |          2 | expt-ds.mean                                                   
+⠹ |          3 | expt-ds.mean                                                   
+⠸ |          4 | expt-ds.mean                                                   
+⠼ |          5 | expt-ds.mean                                                   
+⠴ |          6 | expt-ds.mean                                                   
+⠦ |          7 | expt-ds.mean                                                   
+⠧ |          8 | expt-ds.mean                                                   
+⠇ |          9 | expt-ds.mean                                                   
+⠙ |         12 | expt-ds.mean                                                   
+⠼ |         15 | expt-ds.mean                                                   
+⠧ |         18 | expt-ds.mean                                                   
+⠋ |         21 | expt-ds.mean                                                   
+⠸ |         24 | expt-ds.mean                                                   
+⠦ |         27 | expt-ds.mean                                                   
+⠏ |         30 | expt-ds.mean                                                   
+⠹ |         33 | expt-ds.mean                                                   
+⠴ |         36 | expt-ds.mean                                                   
+⠇ |         39 | expt-ds.mean                                                   
+⠋ |         41 | expt-ds.mean                                                   
+⠙ |         42 | expt-ds.mean                                                   
+⠸ |         44 | expt-ds.mean                                                   
+⠼ |         45 | expt-ds.mean                                                   
+⠴ |         46 | expt-ds.mean                                                   
+⠧ |         48 | expt-ds.mean                                                   
+⠇ |         49 | expt-ds.mean                                                   
+⠏ |         50 | expt-ds.mean                                                   
+⠋ |         51 | expt-ds.mean                                                   
+⠙ |         52 | expt-ds.mean                                                   
+⠹ |         53 | expt-ds.mean                                                   
+⠸ |         54 | expt-ds.mean                                                   
+⠼ |         55 | expt-ds.mean                                                   
+⠴ |         56 | expt-ds.mean                                                   
+✔ |         56 | expt-ds.mean [29.9s]
+
+⠏ |          0 | expt-ds.reshape                                                
+⠋ |      1   0 | expt-ds.reshape                                                
+✔ |      1   0 | expt-ds.reshape
+
+⠏ |          0 | expt-ds.skewness                                               
+⠋ |          1 | expt-ds.skewness                                               
+⠙ |          2 | expt-ds.skewness                                               
+⠹ |          3 | expt-ds.skewness                                               
+⠸ |          4 | expt-ds.skewness                                               
+⠼ |          5 | expt-ds.skewness                                               
+⠴ |          6 | expt-ds.skewness                                               
+⠦ |          7 | expt-ds.skewness                                               
+⠧ |          8 | expt-ds.skewness                                               
+⠇ |          9 | expt-ds.skewness                                               
+⠙ |         12 | expt-ds.skewness                                               
+⠼ |         15 | expt-ds.skewness                                               
+⠧ |         18 | expt-ds.skewness                                               
+⠋ |         21 | expt-ds.skewness                                               
+⠸ |         24 | expt-ds.skewness                                               
+⠦ |         27 | expt-ds.skewness                                               
+⠏ |         30 | expt-ds.skewness                                               
+⠹ |         33 | expt-ds.skewness                                               
+⠼ |         35 | expt-ds.skewness                                               
+⠦ |         37 | expt-ds.skewness                                               
+⠇ |         39 | expt-ds.skewness                                               
+✔ |         40 | expt-ds.skewness [18.5s]
+
+⠏ |          0 | expt-ds.var                                                    
+⠋ |          1 | expt-ds.var                                                    
+⠙ |          2 | expt-ds.var                                                    
+⠹ |          3 | expt-ds.var                                                    
+⠸ |          4 | expt-ds.var                                                    
+⠼ |          5 | expt-ds.var                                                    
+⠴ |          6 | expt-ds.var                                                    
+⠦ |          7 | expt-ds.var                                                    
+⠧ |          8 | expt-ds.var                                                    
+⠇ |          9 | expt-ds.var                                                    
+⠙ |         12 | expt-ds.var                                                    
+⠼ |         15 | expt-ds.var                                                    
+⠧ |         18 | expt-ds.var                                                    
+⠋ |         21 | expt-ds.var                                                    
+⠸ |         24 | expt-ds.var                                                    
+⠦ |         27 | expt-ds.var                                                    
+⠏ |         30 | expt-ds.var                                                    
+⠹ |         33 | expt-ds.var                                                    
+⠸ |         34 | expt-ds.var                                                    
+⠼ |         35 | expt-ds.var                                                    
+⠴ |         36 | expt-ds.var                                                    
+⠦ |         37 | expt-ds.var                                                    
+⠧ |         38 | expt-ds.var                                                    
+⠇ |         39 | expt-ds.var                                                    
+⠏ |         40 | expt-ds.var                                                    
+⠋ |         41 | expt-ds.var                                                    
+⠙ |         42 | expt-ds.var                                                    
+⠹ |         43 | expt-ds.var                                                    
+⠸ |         44 | expt-ds.var                                                    
+⠼ |         45 | expt-ds.var                                                    
+⠴ |         46 | expt-ds.var                                                    
+⠦ |         47 | expt-ds.var                                                    
+⠧ |         48 | expt-ds.var                                                    
+✔ |         48 | expt-ds.var [28.4s]
+
+⠏ |          0 | math-ds.mean                                                   
+⠋ |          1 | math-ds.mean                                                   
+⠙ |          2 | math-ds.mean                                                   
+⠹ |          3 | math-ds.mean                                                   
+⠸ |          4 | math-ds.mean                                                   
+⠼ |          5 | math-ds.mean                                                   
+⠴ |          6 | math-ds.mean                                                   
+⠦ |          7 | math-ds.mean                                                   
+⠧ |          8 | math-ds.mean                                                   
+⠇ |          9 | math-ds.mean                                                   
+⠙ |         12 | math-ds.mean                                                   
+⠼ |         15 | math-ds.mean                                                   
+⠧ |         18 | math-ds.mean                                                   
+⠋ |         21 | math-ds.mean                                                   
+⠸ |         24 | math-ds.mean                                                   
+⠦ |         27 | math-ds.mean                                                   
+⠏ |         30 | math-ds.mean                                                   
+⠹ |         33 | math-ds.mean                                                   
+⠸ |         34 | math-ds.mean                                                   
+⠼ |         35 | math-ds.mean                                                   
+⠴ |         36 | math-ds.mean                                                   
+⠦ |         37 | math-ds.mean                                                   
+⠧ |         38 | math-ds.mean                                                   
+⠇ |         39 | math-ds.mean                                                   
+⠏ |         40 | math-ds.mean                                                   
+⠋ |         41 | math-ds.mean                                                   
+⠸ |         44 | math-ds.mean                                                   
+⠦ |         47 | math-ds.mean                                                   
+⠏ |         50 | math-ds.mean                                                   
+⠹ |         53 | math-ds.mean                                                   
+⠴ |         56 | math-ds.mean                                                   
+⠇ |         59 | math-ds.mean                                                   
+⠙ |         62 | math-ds.mean                                                   
+⠼ |         65 | math-ds.mean                                                   
+⠴ |         66 | math-ds.mean                                                   
+⠦ |         67 | math-ds.mean                                                   
+⠧ |         68 | math-ds.mean                                                   
+⠇ |         69 | math-ds.mean                                                   
+⠏ |         70 | math-ds.mean                                                   
+⠋ |         71 | math-ds.mean                                                   
+⠙ |         72 | math-ds.mean                                                   
+⠹ |         73 | math-ds.mean                                                   
+⠸ |         74 | math-ds.mean                                                   
+⠼ |         75 | math-ds.mean                                                   
+⠴ |         76 | math-ds.mean                                                   
+⠦ |         77 | math-ds.mean                                                   
+⠧ |         78 | math-ds.mean                                                   
+⠇ |         79 | math-ds.mean                                                   
+⠏ |         80 | math-ds.mean                                                   
+⠋ |         81 | math-ds.mean                                                   
+⠙ |         82 | math-ds.mean                                                   
+⠹ |         83 | math-ds.mean                                                   
+⠸ |         84 | math-ds.mean                                                   
+⠼ |         85 | math-ds.mean                                                   
+⠴ |         86 | math-ds.mean                                                   
+⠦ |         87 | math-ds.mean                                                   
+⠧ |         88 | math-ds.mean                                                   
+⠇ |         89 | math-ds.mean                                                   
+⠏ |         90 | math-ds.mean                                                   
+⠋ |         91 | math-ds.mean                                                   
+⠙ |         92 | math-ds.mean                                                   
+⠹ |         93 | math-ds.mean                                                   
+⠸ |         94 | math-ds.mean                                                   
+⠼ |         95 | math-ds.mean                                                   
+⠴ |         96 | math-ds.mean                                                   
+✔ |         96 | math-ds.mean [43.5s]
+
+⠏ |          0 | math-ds.var                                                    
+⠋ |          1 | math-ds.var                                                    
+⠙ |          2 | math-ds.var                                                    
+⠹ |          3 | math-ds.var                                                    
+⠸ |          4 | math-ds.var                                                    
+⠼ |          5 | math-ds.var                                                    
+⠴ |          6 | math-ds.var                                                    
+⠦ |          7 | math-ds.var                                                    
+⠧ |          8 | math-ds.var                                                    
+⠇ |          9 | math-ds.var                                                    
+⠙ |         12 | math-ds.var                                                    
+⠼ |         15 | math-ds.var                                                    
+⠧ |         18 | math-ds.var                                                    
+⠋ |         21 | math-ds.var                                                    
+⠸ |         24 | math-ds.var                                                    
+⠦ |         27 | math-ds.var                                                    
+⠏ |         30 | math-ds.var                                                    
+⠹ |         33 | math-ds.var                                                    
+⠼ |         35 | math-ds.var                                                    
+⠦ |         37 | math-ds.var                                                    
+⠇ |         39 | math-ds.var                                                    
+⠋ |         41 | math-ds.var                                                    
+⠦ |         47 | math-ds.var                                                    
+⠹ |         53 | math-ds.var                                                    
+⠇ |         59 | math-ds.var                                                    
+⠼ |         65 | math-ds.var                                                    
+⠧ |         68 | math-ds.var                                                    
+⠋ |         71 | math-ds.var                                                    
+⠹ |         73 | math-ds.var                                                    
+⠼ |         75 | math-ds.var                                                    
+⠦ |         77 | math-ds.var                                                    
+⠧ |         78 | math-ds.var                                                    
+⠏ |         80 | math-ds.var                                                    
+⠋ |         81 | math-ds.var                                                    
+⠦ |         87 | math-ds.var                                                    
+⠹ |         93 | math-ds.var                                                    
+⠇ |         99 | math-ds.var                                                    
+⠹ |        103 | math-ds.var                                                    
+⠼ |        105 | math-ds.var                                                    
+⠴ |        106 | math-ds.var                                                    
+⠦ |        107 | math-ds.var                                                    
+⠧ |        108 | math-ds.var                                                    
+⠇ |        109 | math-ds.var                                                    
+⠏ |        110 | math-ds.var                                                    
+⠋ |        111 | math-ds.var                                                    
+⠙ |        112 | math-ds.var                                                    
+⠹ |        113 | math-ds.var                                                    
+⠸ |        114 | math-ds.var                                                    
+⠼ |        115 | math-ds.var                                                    
+⠴ |        116 | math-ds.var                                                    
+⠦ |        117 | math-ds.var                                                    
+⠧ |        118 | math-ds.var                                                    
+⠇ |        119 | math-ds.var                                                    
+⠏ |        120 | math-ds.var                                                    
+⠋ |        121 | math-ds.var                                                    
+⠙ |        122 | math-ds.var                                                    
+⠹ |        123 | math-ds.var                                                    
+⠸ |        124 | math-ds.var                                                    
+⠼ |        125 | math-ds.var                                                    
+⠴ |        126 | math-ds.var                                                    
+⠦ |        127 | math-ds.var                                                    
+⠧ |        128 | math-ds.var                                                    
+⠇ |        129 | math-ds.var                                                    
+⠏ |        130 | math-ds.var                                                    
+⠋ |        131 | math-ds.var                                                    
+⠙ |        132 | math-ds.var                                                    
+⠹ |        133 | math-ds.var                                                    
+⠸ |        134 | math-ds.var                                                    
+⠼ |        135 | math-ds.var                                                    
+⠴ |        136 | math-ds.var                                                    
+✔ |        136 | math-ds.var [52.3s]
+
+⠏ |          0 | perf-conndisconn                                               [1] "conndisconn::perf::simple0 0.16709284, 61.32%"
+
+⠋ |          1 | perf-conndisconn                                               
+✔ |          2 | perf-conndisconn [132.0s]
+
+⠏ |          0 | perf-ds.abs                                                    [1] "ds.abs::perf::0 5.6530712, 211.2%"
+
+⠋ |          1 | perf-ds.abs                                                    
+✖ | 1        1 | perf-ds.abs [36.1s]
+────────────────────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.abs.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 5.65 >= 5.35
+Difference: 0.30 >= 0
+────────────────────────────────────────────────────────────────────────────────
+
+⠏ |          0 | perf-ds.asInteger                                              [1] "ds.asInteger::perf:0 5.2132434, 227.3%"
+
+⠋ |          1 | perf-ds.asInteger                                              
+✖ | 1        1 | perf-ds.asInteger [36.2s]
+────────────────────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.asInteger.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 5.21 >= 4.59
+Difference: 0.63 >= 0
+────────────────────────────────────────────────────────────────────────────────
+
+⠏ |          0 | perf-ds.asList                                                 [1] "ds.asList::perf:0 11.490318, 250.5%"
+
+⠋ |          1 | perf-ds.asList                                                 
+✖ | 1        1 | perf-ds.asList [36.1s]
+────────────────────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.asList.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 11.5 >= 9.2
+Difference: 2.3 >= 0
+────────────────────────────────────────────────────────────────────────────────
+
+⠏ |          0 | perf-ds.asNumeric                                              [1] "ds.asNumeric::perf:0 5.2057976, 238.3%"
+
+⠋ |          1 | perf-ds.asNumeric                                              
+✖ | 1        1 | perf-ds.asNumeric [36.3s]
+────────────────────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.asNumeric.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 5.21 >= 4.37
+Difference: 0.84 >= 0
+────────────────────────────────────────────────────────────────────────────────
+
+⠏ |          0 | perf-ds.assign                                                 [1] "ds.assign::perf::0 9.6088985, 175%"
+
+⠋ |          1 | perf-ds.assign                                                 
+✔ |          2 | perf-ds.assign [36.1s]
+
+⠏ |          0 | perf-ds.class                                                  [1] "ds.class::perf::combine:0 11.543241, 242.5%"
+
+⠋ |          1 | perf-ds.class                                                  
+✖ | 1        1 | perf-ds.class [36.1s]
+────────────────────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.class.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 11.5 >= 9.5
+Difference: 2.0 >= 0
+────────────────────────────────────────────────────────────────────────────────
+
+⠏ |          0 | perf-ds.colnames                                               [1] "ds.colnames::perf:0 23.009081, 240.2%"
+
+⠋ |          1 | perf-ds.colnames                                               
+✖ | 1        1 | perf-ds.colnames [36.0s]
+────────────────────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.colnames.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.0 >= 19.2
+Difference: 3.9 >= 0
+────────────────────────────────────────────────────────────────────────────────
+
+⠏ |          0 | perf-ds.exists                                                 [1] "ds.exists::perf::combine:0 23.402883, 211%"
+
+⠋ |          1 | perf-ds.exists                                                 
+✖ | 1        1 | perf-ds.exists [36.0s]
+────────────────────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.exists.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.4 >= 22.2
+Difference: 1.2 >= 0
+────────────────────────────────────────────────────────────────────────────────
+
+⠏ |          0 | perf-ds.length                                                 [1] "ds.length::perf::combine:0 23.436557, 247.2%"
+
+⠋ |          1 | perf-ds.length                                                 
+✖ | 1        1 | perf-ds.length [36.0s]
+────────────────────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.length.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.4 >= 19.0
+Difference: 4.5 >= 0
+────────────────────────────────────────────────────────────────────────────────
+
+⠏ |          0 | perf-ds.mean                                                   [1] "ds.mean::perf::combine:0 23.490253, 243.4%"
+
+⠋ |          1 | perf-ds.mean                                                   [1] "ds.mean::perf::split:0 23.099975, 205.2%"
+
+⠹ | 1        2 | perf-ds.mean                                                   
+✖ | 2        2 | perf-ds.mean [66.0s]
+────────────────────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.mean.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.5 >= 19.3
+Difference: 4.2 >= 0
+
+Failure ('test-perf-ds.mean.R:81:5'): split - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.10 >= 22.52
+Difference: 0.58 >= 0
+────────────────────────────────────────────────────────────────────────────────
+
+⠏ |          0 | perf-void                                                      [1] "void::perf::void::0 52467.681, 113.4%"
+
+⠋ |          1 | perf-void                                                      
+✔ |          2 | perf-void [60.0s]
+
+⠏ |          0 | smk_expt-ds.mean                                               
+⠋ |          1 | smk_expt-ds.mean                                               
+⠸ |      1   3 | smk_expt-ds.mean                                               
+⠧ |      3   5 | smk_expt-ds.mean                                               
+⠋ |      3   8 | smk_expt-ds.mean                                               
+⠹ |      3  10 | smk_expt-ds.mean                                               
+⠼ |      3  12 | smk_expt-ds.mean                                               
+⠴ |      3  13 | smk_expt-ds.mean                                               
+⠦ |      3  14 | smk_expt-ds.mean                                               
+⠧ |      3  15 | smk_expt-ds.mean                                               
+⠇ |      3  16 | smk_expt-ds.mean                                               
+⠏ |      3  17 | smk_expt-ds.mean                                               
+⠋ |      3  18 | smk_expt-ds.mean                                               
+⠙ |      3  19 | smk_expt-ds.mean                                               
+⠹ |      3  20 | smk_expt-ds.mean                                               
+⠸ |      3  21 | smk_expt-ds.mean                                               
+⠼ |      3  22 | smk_expt-ds.mean                                               
+⠴ |      3  23 | smk_expt-ds.mean                                               
+⠦ |      3  24 | smk_expt-ds.mean                                               
+⠧ |      3  25 | smk_expt-ds.mean                                               
+⠇ |      3  26 | smk_expt-ds.mean                                               
+⠏ |      3  27 | smk_expt-ds.mean                                               
+⠋ |      3  28 | smk_expt-ds.mean                                               
+⠙ |      3  29 | smk_expt-ds.mean                                               
+⠹ |      3  30 | smk_expt-ds.mean                                               
+✔ |      3  30 | smk_expt-ds.mean [11.1s]
+
+⠏ |          0 | smk_expt-ds.ranksSecure                                        
+⠋ |          1 | smk_expt-ds.ranksSecure                                        
+⠸ |          4 | smk_expt-ds.ranksSecure                                        
+⠼ |          5 | smk_expt-ds.ranksSecure                                        
+⠇ |          9 | smk_expt-ds.ranksSecure                                        
+⠏ |         10 | smk_expt-ds.ranksSecure                                        
+⠋ |         11 | smk_expt-ds.ranksSecure                                        
+⠼ |         15 | smk_expt-ds.ranksSecure                                        
+⠴ |         16 | smk_expt-ds.ranksSecure                                        
+⠦ |         17 | smk_expt-ds.ranksSecure                                        
+✔ |         20 | smk_expt-ds.ranksSecure [53.5s]
+
+⠏ |          0 | smk-checkClass-discordant                                      
+⠋ |          1 | smk-checkClass-discordant                                      
+⠴ |          6 | smk-checkClass-discordant                                      
+✔ |          9 | smk-checkClass-discordant [6.3s]
+
+⠏ |          0 | smk-checkClass                                                 
+⠋ |          1 | smk-checkClass                                                 
+⠏ |         10 | smk-checkClass                                                 
+⠇ |         19 | smk-checkClass                                                 
+⠙ |         22 | smk-checkClass                                                 
+✔ |         30 | smk-checkClass [6.8s]
+
+⠏ |          0 | smk-ds.abs                                                     
+⠋ |          1 | smk-ds.abs                                                     
+⠸ |          4 | smk-ds.abs                                                     
+⠏ |         10 | smk-ds.abs                                                     
+✔ |         16 | smk-ds.abs [6.5s]
+
+⠏ |          0 | smk-ds.asCharacter                                             
+⠋ |          1 | smk-ds.asCharacter                                             
+⠸ |          4 | smk-ds.asCharacter                                             
+✔ |          9 | smk-ds.asCharacter [6.3s]
+
+⠏ |          0 | smk-ds.asDataMatrix                                            
+⠋ |          1 | smk-ds.asDataMatrix                                            
+⠸ |          4 | smk-ds.asDataMatrix                                            
+⠇ |          9 | smk-ds.asDataMatrix                                            
+✔ |         19 | smk-ds.asDataMatrix [6.5s]
+
+⠏ |          0 | smk-ds.asFactor                                                
+⠋ |          1 | smk-ds.asFactor                                                
+⠸ |          4 | smk-ds.asFactor                                                
+⠇ |          9 | smk-ds.asFactor                                                
+⠸ |         14 | smk-ds.asFactor                                                
+⠇ |         19 | smk-ds.asFactor                                                
+⠸ |         24 | smk-ds.asFactor                                                
+⠇ |         29 | smk-ds.asFactor                                                
+⠙ |         32 | smk-ds.asFactor                                                
+✔ |         37 | smk-ds.asFactor [8.8s]
+
+⠏ |          0 | smk-ds.asFactorSimple                                          
+⠋ |          1 | smk-ds.asFactorSimple                                          
+⠸ |          4 | smk-ds.asFactorSimple                                          
+✔ |         11 | smk-ds.asFactorSimple [6.8s]
+
+⠏ |          0 | smk-ds.asInteger                                               
+⠋ |          1 | smk-ds.asInteger                                               
+⠸ |          4 | smk-ds.asInteger                                               
+✔ |          9 | smk-ds.asInteger [6.4s]
+
+⠏ |          0 | smk-ds.asList                                                  
+⠋ |          1 | smk-ds.asList                                                  
+⠸ |          4 | smk-ds.asList                                                  
+✔ |         16 | smk-ds.asList [6.4s]
+
+⠏ |          0 | smk-ds.asLogical                                               
+⠋ |          1 | smk-ds.asLogical                                               
+⠸ |          4 | smk-ds.asLogical                                               
+✔ |          9 | smk-ds.asLogical [6.4s]
+
+⠏ |          0 | smk-ds.asMatrix                                                
+⠋ |          1 | smk-ds.asMatrix                                                
+⠸ |          4 | smk-ds.asMatrix                                                
+✔ |          9 | smk-ds.asMatrix [6.4s]
+
+⠏ |          0 | smk-ds.asNumeric                                               
+⠋ |          1 | smk-ds.asNumeric                                               
+⠸ |          4 | smk-ds.asNumeric                                               
+✔ |          9 | smk-ds.asNumeric [6.3s]
+
+⠏ |          0 | smk-ds.assign                                                  
+⠋ |          1 | smk-ds.assign                                                  
+⠸ |          4 | smk-ds.assign                                                  
+✔ |          7 | smk-ds.assign [6.7s]
+
+⠏ |          0 | smk-ds.Boole                                                   
+⠋ |          1 | smk-ds.Boole                                                   
+⠸ |          4 | smk-ds.Boole                                                   
+⠦ |          7 | smk-ds.Boole                                                   
+⠋ |         41 | smk-ds.Boole                                                   
+⠸ |         44 | smk-ds.Boole                                                   
+⠧ |         78 | smk-ds.Boole                                                   
+⠋ |         81 | smk-ds.Boole                                                   
+⠼ |        115 | smk-ds.Boole                                                   
+✔ |        117 | smk-ds.Boole [8.2s]
+
+⠏ |          0 | smk-ds.c                                                       
+⠋ |          1 | smk-ds.c                                                       
+⠸ |          4 | smk-ds.c                                                       
+✔ |          7 | smk-ds.c [6.3s]
+
+⠏ |          0 | smk-ds.cbind                                                   
+⠋ |          1 | smk-ds.cbind                                                   
+⠸ |          4 | smk-ds.cbind                                                   
+⠇ |          9 | smk-ds.cbind                                                   
+⠧ |         38 | smk-ds.cbind                                                   
+⠏ |         40 | smk-ds.cbind                                                   
+⠴ |         56 | smk-ds.cbind                                                   
+⠙ |         72 | smk-ds.cbind                                                   
+⠦ |         77 | smk-ds.cbind                                                   
+⠴ |        106 | smk-ds.cbind                                                   
+⠧ |        108 | smk-ds.cbind                                                   
+⠸ |        124 | smk-ds.cbind                                                   
+⠏ |        140 | smk-ds.cbind                                                   
+✔ |        142 | smk-ds.cbind [12.0s]
+
+⠏ |          0 | smk-ds.changeRefGroup                                          
+⠋ |          1 | smk-ds.changeRefGroup                                          
+⠸ |          4 | smk-ds.changeRefGroup                                          
+⠼ |          5 | smk-ds.changeRefGroup                                          
+✔ |         37 | smk-ds.changeRefGroup [6.7s]
+
+⠏ |          0 | smk-ds.class                                                   
+⠋ |          1 | smk-ds.class                                                   
+⠋ |         11 | smk-ds.class                                                   
+✔ |         20 | smk-ds.class [6.3s]
+
+⠏ |          0 | smk-ds.colnames                                                
+⠋ |          1 | smk-ds.colnames                                                
+⠸ |          4 | smk-ds.colnames                                                
+⠸ |         14 | smk-ds.colnames                                                
+✔ |         17 | smk-ds.colnames [6.5s]
+
+⠏ |          0 | smk-ds.completeCases-vectors                                   
+⠋ |          1 | smk-ds.completeCases-vectors                                   
+⠸ |          4 | smk-ds.completeCases-vectors                                   
+⠇ |          9 | smk-ds.completeCases-vectors                                   
+⠼ |         15 | smk-ds.completeCases-vectors                                   
+⠼ |         25 | smk-ds.completeCases-vectors                                   
+⠇ |         29 | smk-ds.completeCases-vectors                                   
+⠹ |         33 | smk-ds.completeCases-vectors                                   
+⠏ |         40 | smk-ds.completeCases-vectors                                   
+⠙ |         52 | smk-ds.completeCases-vectors                                   
+⠸ |         54 | smk-ds.completeCases-vectors                                   
+⠧ |         58 | smk-ds.completeCases-vectors                                   
+⠙ |         62 | smk-ds.completeCases-vectors                                   
+⠼ |         65 | smk-ds.completeCases-vectors                                   
+⠹ |         73 | smk-ds.completeCases-vectors                                   
+⠹ |         83 | smk-ds.completeCases-vectors                                   
+⠦ |         87 | smk-ds.completeCases-vectors                                   
+⠋ |         91 | smk-ds.completeCases-vectors                                   
+⠸ |         94 | smk-ds.completeCases-vectors                                   
+⠋ |        101 | smk-ds.completeCases-vectors                                   
+⠋ |        111 | smk-ds.completeCases-vectors                                   
+⠙ |        112 | smk-ds.completeCases-vectors                                   
+⠴ |        116 | smk-ds.completeCases-vectors                                   
+⠏ |        120 | smk-ds.completeCases-vectors                                   
+⠼ |        125 | smk-ds.completeCases-vectors                                   
+⠦ |        127 | smk-ds.completeCases-vectors                                   
+⠴ |        136 | smk-ds.completeCases-vectors                                   
+⠋ |        141 | smk-ds.completeCases-vectors                                   
+⠼ |        145 | smk-ds.completeCases-vectors                                   
+✔ |        151 | smk-ds.completeCases-vectors [11.0s]
+
+⠏ |          0 | smk-ds.completeCases                                           
+⠋ |          1 | smk-ds.completeCases                                           
+⠸ |          4 | smk-ds.completeCases                                           
+⠋ |         11 | smk-ds.completeCases                                           
+⠧ |         28 | smk-ds.completeCases                                           
+⠋ |         41 | smk-ds.completeCases                                           
+⠧ |         48 | smk-ds.completeCases                                           
+⠋ |         71 | smk-ds.completeCases                                           
+✔ |         86 | smk-ds.completeCases [8.2s]
+
+⠏ |          0 | smk-ds.cor                                                     
+⠋ |          1 | smk-ds.cor                                                     
+⠸ |          4 | smk-ds.cor                                                     
+⠇ |          9 | smk-ds.cor                                                     
+✔ |         27 | smk-ds.cor [7.0s]
+
+⠏ |          0 | smk-ds.corTest                                                 
+⠋ |          1 | smk-ds.corTest                                                 
+⠸ |          4 | smk-ds.corTest                                                 
+⠇ |         29 | smk-ds.corTest                                                 
+⠸ |         54 | smk-ds.corTest                                                 
+✔ |         81 | smk-ds.corTest [7.1s]
+
+⠏ |          0 | smk-ds.cov                                                     
+⠋ |          1 | smk-ds.cov                                                     
+⠸ |          4 | smk-ds.cov                                                     
+⠹ |         23 | smk-ds.cov                                                     
+✔ |         34 | smk-ds.cov [7.0s]
+
+⠏ |          0 | smk-ds.dataFrame                                               
+⠋ |          1 | smk-ds.dataFrame                                               
+⠸ |          4 | smk-ds.dataFrame                                               
+⠦ |          7 | smk-ds.dataFrame                                               
+⠇ |         29 | smk-ds.dataFrame                                               
+⠙ |         32 | smk-ds.dataFrame                                               
+⠇ |         49 | smk-ds.dataFrame                                               
+⠸ |         64 | smk-ds.dataFrame                                               
+⠸ |         74 | smk-ds.dataFrame                                               
+⠼ |         85 | smk-ds.dataFrame                                               
+⠸ |         94 | smk-ds.dataFrame                                               
+✔ |         96 | smk-ds.dataFrame [9.6s]
+
+⠏ |          0 | smk-ds.dataFrameFill-donothing                                 
+⠋ |          1 | smk-ds.dataFrameFill-donothing                                 
+⠦ |         17 | smk-ds.dataFrameFill-donothing                                 
+✔ |         20 | smk-ds.dataFrameFill-donothing [6.6s]
+
+⠏ |          0 | smk-ds.dataFrameFill-factor                                    
+⠋ |          1 | smk-ds.dataFrameFill-factor                                    
+⠦ |          7 | smk-ds.dataFrameFill-factor                                    
+⠹ |         23 | smk-ds.dataFrameFill-factor                                    
+⠦ |         27 | smk-ds.dataFrameFill-factor                                    
+⠴ |         46 | smk-ds.dataFrameFill-factor                                    
+⠦ |         57 | smk-ds.dataFrameFill-factor                                    
+⠏ |         60 | smk-ds.dataFrameFill-factor                                    
+⠦ |         67 | smk-ds.dataFrameFill-factor                                    
+⠦ |         77 | smk-ds.dataFrameFill-factor                                    
+⠧ |         88 | smk-ds.dataFrameFill-factor                                    
+⠋ |         91 | smk-ds.dataFrameFill-factor                                    
+✔ |        103 | smk-ds.dataFrameFill-factor [8.6s]
+
+⠏ |          0 | smk-ds.dataFrameFill                                           
+⠋ |          1 | smk-ds.dataFrameFill                                           
+⠸ |         14 | smk-ds.dataFrameFill                                           
+⠏ |         30 | smk-ds.dataFrameFill                                           
+⠸ |         44 | smk-ds.dataFrameFill                                           
+⠹ |         53 | smk-ds.dataFrameFill                                           
+✔ |         60 | smk-ds.dataFrameFill [7.1s]
+
+⠏ |          0 | smk-ds.dataFrameSort                                           
+⠋ |          1 | smk-ds.dataFrameSort                                           
+⠸ |          4 | smk-ds.dataFrameSort                                           
+✔ |         16 | smk-ds.dataFrameSort [6.5s]
+
+⠏ |          0 | smk-ds.dataFrameSubset                                         
+⠋ |          1 | smk-ds.dataFrameSubset                                         
+⠸ |          4 | smk-ds.dataFrameSubset                                         
+⠸ |         14 | smk-ds.dataFrameSubset                                         
+⠦ |         27 | smk-ds.dataFrameSubset                                         
+⠦ |         37 | smk-ds.dataFrameSubset                                         
+✔ |         52 | smk-ds.dataFrameSubset [8.6s]
+
+⠏ |          0 | smk-ds.dim                                                     
+⠋ |          1 | smk-ds.dim                                                     
+⠦ |         17 | smk-ds.dim                                                     
+⠋ |         31 | smk-ds.dim                                                     
+✔ |         33 | smk-ds.dim [6.3s]
+
+⠏ |          0 | smk-ds.dmtC2S                                                  
+⠋ |          1 | smk-ds.dmtC2S                                                  
+⠼ |          5 | smk-ds.dmtC2S                                                  
+⠏ |         10 | smk-ds.dmtC2S                                                  
+⠼ |         15 | smk-ds.dmtC2S                                                  
+✔ |         21 | smk-ds.dmtC2S [6.5s]
+
+⠏ |          0 | smk-ds.elspline                                                
+⠋ |          1 | smk-ds.elspline                                                
+⠸ |          4 | smk-ds.elspline                                                
+⠋ |         11 | smk-ds.elspline                                                
+⠏ |         40 | smk-ds.elspline                                                
+⠦ |         47 | smk-ds.elspline                                                
+⠏ |         80 | smk-ds.elspline                                                
+✔ |         82 | smk-ds.elspline [7.2s]
+
+⠏ |          0 | smk-ds.exists                                                  
+⠋ |          1 | smk-ds.exists                                                  
+⠋ |         11 | smk-ds.exists                                                  
+⠧ |         18 | smk-ds.exists                                                  
+✔ |         27 | smk-ds.exists [6.4s]
+
+⠏ |          0 | smk-ds.exp                                                     
+⠋ |          1 | smk-ds.exp                                                     
+⠸ |          4 | smk-ds.exp                                                     
+⠙ |         12 | smk-ds.exp                                                     
+⠇ |         19 | smk-ds.exp                                                     
+⠦ |         27 | smk-ds.exp                                                     
+✔ |         36 | smk-ds.exp [7.0s]
+
+⠏ |          0 | smk-ds.gamlss                                                  
+⠋ |          1 | smk-ds.gamlss                                                  
+⠸ |          4 | smk-ds.gamlss                                                  
+⠇ |         59 | smk-ds.gamlss                                                  
+⠋ |         81 | smk-ds.gamlss                                                  
+⠦ |        127 | smk-ds.gamlss                                                  
+⠇ |        159 | smk-ds.gamlss                                                  
+⠇ |        199 | smk-ds.gamlss                                                  
+⠴ |        236 | smk-ds.gamlss                                                  
+⠼ |        275 | smk-ds.gamlss                                                  
+⠋ |        311 | smk-ds.gamlss                                                  
+✔ |        315 | smk-ds.gamlss [8.7s]
+
+⠏ |          0 | smk-ds.getWGSR                                                 
+⠋ |          1 | smk-ds.getWGSR                                                 
+⠸ |          4 | smk-ds.getWGSR                                                 
+⠴ |         16 | smk-ds.getWGSR                                                 
+✔ |         27 | smk-ds.getWGSR [9.1s]
+
+⠏ |          0 | smk-ds.glm-binomial                                            
+⠋ |          1 | smk-ds.glm-binomial                                            
+⠸ |          4 | smk-ds.glm-binomial                                            
+⠸ |         24 | smk-ds.glm-binomial                                            
+✔ |         47 | smk-ds.glm-binomial [8.5s]
+
+⠏ |          0 | smk-ds.glm-gaussian                                            
+⠋ |          1 | smk-ds.glm-gaussian                                            
+⠸ |          4 | smk-ds.glm-gaussian                                            
+⠸ |         24 | smk-ds.glm-gaussian                                            
+✔ |         47 | smk-ds.glm-gaussian [7.2s]
+
+⠏ |          0 | smk-ds.glm-poisson                                             
+⠋ |          1 | smk-ds.glm-poisson                                             
+⠸ |          4 | smk-ds.glm-poisson                                             
+⠸ |         24 | smk-ds.glm-poisson                                             
+✔ |         47 | smk-ds.glm-poisson [8.5s]
+
+⠏ |          0 | smk-ds.glmerSLMA                                               
+⠋ |          1 | smk-ds.glmerSLMA                                               
+⠸ |          4 | smk-ds.glmerSLMA                                               
+⠼ |          5 | smk-ds.glmerSLMA                                               
+⠴ |          6 | smk-ds.glmerSLMA                                               
+⠦ |          7 | smk-ds.glmerSLMA                                               
+⠧ |          8 | smk-ds.glmerSLMA                                               
+⠇ |          9 | smk-ds.glmerSLMA                                               
+⠏ |         10 | smk-ds.glmerSLMA                                               
+⠋ |         11 | smk-ds.glmerSLMA                                               
+⠙ |         12 | smk-ds.glmerSLMA                                               
+⠹ |         13 | smk-ds.glmerSLMA                                               
+⠦ |         17 | smk-ds.glmerSLMA                                               
+⠏ |         20 | smk-ds.glmerSLMA                                               
+⠦ |         47 | smk-ds.glmerSLMA                                               
+✔ |         76 | smk-ds.glmerSLMA [28.2s]
+
+⠏ |          0 | smk-ds.glmPredict-binomial                                     
+⠋ |          1 | smk-ds.glmPredict-binomial                                     
+⠸ |          4 | smk-ds.glmPredict-binomial                                     
+⠧ |          8 | smk-ds.glmPredict-binomial                                     
+⠹ |         73 | smk-ds.glmPredict-binomial                                     
+⠦ |         77 | smk-ds.glmPredict-binomial                                     
+⠏ |        130 | smk-ds.glmPredict-binomial                                     
+⠙ |        142 | smk-ds.glmPredict-binomial                                     
+⠴ |        146 | smk-ds.glmPredict-binomial                                     
+⠧ |        198 | smk-ds.glmPredict-binomial                                     
+⠴ |        246 | smk-ds.glmPredict-binomial                                     
+✔ |        258 | smk-ds.glmPredict-binomial [8.4s]
+
+⠏ |          0 | smk-ds.glmPredict-gaussian                                     
+⠋ |          1 | smk-ds.glmPredict-gaussian                                     
+⠸ |          4 | smk-ds.glmPredict-gaussian                                     
+⠧ |          8 | smk-ds.glmPredict-gaussian                                     
+⠙ |         72 | smk-ds.glmPredict-gaussian                                     
+⠹ |         73 | smk-ds.glmPredict-gaussian                                     
+⠦ |         77 | smk-ds.glmPredict-gaussian                                     
+⠙ |        132 | smk-ds.glmPredict-gaussian                                     
+⠙ |        142 | smk-ds.glmPredict-gaussian                                     
+⠴ |        146 | smk-ds.glmPredict-gaussian                                     
+⠋ |        191 | smk-ds.glmPredict-gaussian                                     
+⠇ |        239 | smk-ds.glmPredict-gaussian                                     
+⠧ |        258 | smk-ds.glmPredict-gaussian                                     
+✔ |        258 | smk-ds.glmPredict-gaussian [8.4s]
+
+⠏ |          0 | smk-ds.glmPredict-poisson                                      
+⠋ |          1 | smk-ds.glmPredict-poisson                                      
+⠸ |          4 | smk-ds.glmPredict-poisson                                      
+⠧ |          8 | smk-ds.glmPredict-poisson                                      
+⠹ |         73 | smk-ds.glmPredict-poisson                                      
+⠦ |         77 | smk-ds.glmPredict-poisson                                      
+⠧ |        128 | smk-ds.glmPredict-poisson                                      
+⠙ |        142 | smk-ds.glmPredict-poisson                                      
+⠴ |        146 | smk-ds.glmPredict-poisson                                      
+⠼ |        195 | smk-ds.glmPredict-poisson                                      
+⠇ |        239 | smk-ds.glmPredict-poisson                                      
+✔ |        258 | smk-ds.glmPredict-poisson [9.0s]
+
+⠏ |          0 | smk-ds.glmSLMA                                                 
+⠋ |          1 | smk-ds.glmSLMA                                                 
+⠸ |          4 | smk-ds.glmSLMA                                                 
+⠋ |         51 | smk-ds.glmSLMA                                                 
+⠧ |         98 | smk-ds.glmSLMA                                                 
+⠋ |        141 | smk-ds.glmSLMA                                                 
+⠼ |        145 | smk-ds.glmSLMA                                                 
+⠧ |        188 | smk-ds.glmSLMA                                                 
+⠙ |        192 | smk-ds.glmSLMA                                                 
+⠹ |        233 | smk-ds.glmSLMA                                                 
+⠇ |        239 | smk-ds.glmSLMA                                                 
+⠸ |        274 | smk-ds.glmSLMA                                                 
+✔ |        288 | smk-ds.glmSLMA [11.9s]
+
+⠏ |          0 | smk-ds.glmSummary                                              
+⠋ |          1 | smk-ds.glmSummary                                              
+⠸ |          4 | smk-ds.glmSummary                                              
+⠧ |          8 | smk-ds.glmSummary                                              
+⠦ |         27 | smk-ds.glmSummary                                              
+⠋ |         31 | smk-ds.glmSummary                                              
+⠏ |         50 | smk-ds.glmSummary                                              
+⠸ |         54 | smk-ds.glmSummary                                              
+⠹ |         73 | smk-ds.glmSummary                                              
+⠦ |         77 | smk-ds.glmSummary                                              
+✔ |         98 | smk-ds.glmSummary [9.3s]
+
+⠏ |          0 | smk-ds.hetcor                                                  
+⠋ |          1 | smk-ds.hetcor                                                  
+⠸ |          4 | smk-ds.hetcor                                                  
+⠸ |         54 | smk-ds.hetcor                                                  
+⠦ |        117 | smk-ds.hetcor                                                  
+✔ |        129 | smk-ds.hetcor [11.0s]
+
+⠏ |          0 | smk-ds.isNA                                                    
+⠋ |          1 | smk-ds.isNA                                                    
+⠸ |          4 | smk-ds.isNA                                                    
+✔ |          9 | smk-ds.isNA [6.4s]
+
+⠏ |          0 | smk-ds.isValid                                                 
+⠋ |          1 | smk-ds.isValid                                                 
+⠸ |          4 | smk-ds.isValid                                                 
+✔ |         13 | smk-ds.isValid [6.3s]
+
+⠏ |          0 | smk-ds.kurtosis                                                
+⠋ |          1 | smk-ds.kurtosis                                                
+⠸ |          4 | smk-ds.kurtosis                                                
+⠧ |         18 | smk-ds.kurtosis                                                
+⠙ |         32 | smk-ds.kurtosis                                                
+⠴ |         46 | smk-ds.kurtosis                                                
+⠏ |         60 | smk-ds.kurtosis                                                
+⠸ |         74 | smk-ds.kurtosis                                                
+⠙ |         82 | smk-ds.kurtosis                                                
+⠏ |         90 | smk-ds.kurtosis                                                
+⠧ |         98 | smk-ds.kurtosis                                                
+⠴ |        106 | smk-ds.kurtosis                                                
+⠸ |        114 | smk-ds.kurtosis                                                
+⠴ |        136 | smk-ds.kurtosis                                                
+⠧ |        158 | smk-ds.kurtosis                                                
+⠏ |        180 | smk-ds.kurtosis                                                
+⠙ |        202 | smk-ds.kurtosis                                                
+⠸ |        224 | smk-ds.kurtosis                                                
+⠧ |        238 | smk-ds.kurtosis                                                
+⠙ |        252 | smk-ds.kurtosis                                                
+⠴ |        266 | smk-ds.kurtosis                                                
+⠏ |        280 | smk-ds.kurtosis                                                
+⠸ |        294 | smk-ds.kurtosis                                                
+⠙ |        302 | smk-ds.kurtosis                                                
+⠏ |        310 | smk-ds.kurtosis                                                
+⠧ |        318 | smk-ds.kurtosis                                                
+⠴ |        326 | smk-ds.kurtosis                                                
+⠸ |        334 | smk-ds.kurtosis                                                
+⠴ |        356 | smk-ds.kurtosis                                                
+⠧ |        378 | smk-ds.kurtosis                                                
+⠏ |        400 | smk-ds.kurtosis                                                
+⠙ |        422 | smk-ds.kurtosis                                                
+⠸ |        444 | smk-ds.kurtosis                                                
+⠧ |        458 | smk-ds.kurtosis                                                
+⠙ |        472 | smk-ds.kurtosis                                                
+⠴ |        486 | smk-ds.kurtosis                                                
+⠏ |        500 | smk-ds.kurtosis                                                
+⠸ |        514 | smk-ds.kurtosis                                                
+⠙ |        522 | smk-ds.kurtosis                                                
+⠏ |        530 | smk-ds.kurtosis                                                
+⠧ |        538 | smk-ds.kurtosis                                                
+⠴ |        546 | smk-ds.kurtosis                                                
+⠸ |        554 | smk-ds.kurtosis                                                
+⠴ |        576 | smk-ds.kurtosis                                                
+⠧ |        598 | smk-ds.kurtosis                                                
+⠏ |        620 | smk-ds.kurtosis                                                
+⠙ |        642 | smk-ds.kurtosis                                                
+⠸ |        664 | smk-ds.kurtosis                                                
+✔ |        666 | smk-ds.kurtosis [15.5s]
+
+⠏ |          0 | smk-ds.length                                                  
+⠋ |          1 | smk-ds.length                                                  
+⠋ |         11 | smk-ds.length                                                  
+⠼ |         15 | smk-ds.length                                                  
+⠏ |         20 | smk-ds.length                                                  
+⠸ |         24 | smk-ds.length                                                  
+✔ |         28 | smk-ds.length [6.6s]
+
+⠏ |          0 | smk-ds.levels                                                  
+⠋ |          1 | smk-ds.levels                                                  
+⠸ |          4 | smk-ds.levels                                                  
+⠹ |         23 | smk-ds.levels                                                  
+✔ |         47 | smk-ds.levels [6.7s]
+
+⠏ |          0 | smk-ds.lexis                                                   
+⠋ |          1 | smk-ds.lexis                                                   
+⠸ |          4 | smk-ds.lexis                                                   
+⠸ |         14 | smk-ds.lexis                                                   
+✔ |         21 | smk-ds.lexis [6.8s]
+
+⠏ |          0 | smk-ds.list                                                    
+⠋ |          1 | smk-ds.list                                                    
+⠸ |          4 | smk-ds.list                                                    
+⠧ |         18 | smk-ds.list                                                    
+⠙ |         32 | smk-ds.list                                                    
+✔ |         34 | smk-ds.list [6.6s]
+
+⠏ |          0 | smk-ds.listClientsideFunctions                                 
+⠋ |          1 | smk-ds.listClientsideFunctions                                 
+⠏ |         40 | smk-ds.listClientsideFunctions                                 
+⠸ |         74 | smk-ds.listClientsideFunctions                                 
+⠏ |        110 | smk-ds.listClientsideFunctions                                 
+✔ |        117 | smk-ds.listClientsideFunctions [6.4s]
+
+⠏ |          0 | smk-ds.listDisclosureSettings                                  
+⠋ |          1 | smk-ds.listDisclosureSettings                                  
+⠇ |         39 | smk-ds.listDisclosureSettings                                  
+✔ |         43 | smk-ds.listDisclosureSettings [6.2s]
+
+⠏ |          0 | smk-ds.listServersideFunctions                                 
+⠋ |          1 | smk-ds.listServersideFunctions                                 
+⠋ |         41 | smk-ds.listServersideFunctions                                 
+⠼ |         75 | smk-ds.listServersideFunctions                                 
+⠋ |        111 | smk-ds.listServersideFunctions                                 
+⠼ |        145 | smk-ds.listServersideFunctions                                 
+⠼ |        175 | smk-ds.listServersideFunctions                                 
+⠦ |        207 | smk-ds.listServersideFunctions                                 
+⠦ |        237 | smk-ds.listServersideFunctions                                 
+⠼ |        265 | smk-ds.listServersideFunctions                                 
+⠏ |        290 | smk-ds.listServersideFunctions                                 
+⠹ |        313 | smk-ds.listServersideFunctions                                 
+⠋ |        341 | smk-ds.listServersideFunctions                                 
+⠦ |        367 | smk-ds.listServersideFunctions                                 
+⠹ |        393 | smk-ds.listServersideFunctions                                 
+⠇ |        419 | smk-ds.listServersideFunctions                                 
+⠹ |        443 | smk-ds.listServersideFunctions                                 
+✔ |        448 | smk-ds.listServersideFunctions [7.6s]
+
+⠏ |          0 | smk-ds.lmerSLMA                                                
+⠋ |          1 | smk-ds.lmerSLMA                                                
+⠸ |          4 | smk-ds.lmerSLMA                                                
+⠼ |          5 | smk-ds.lmerSLMA                                                
+⠴ |          6 | smk-ds.lmerSLMA                                                
+⠦ |          7 | smk-ds.lmerSLMA                                                
+⠧ |          8 | smk-ds.lmerSLMA                                                
+⠏ |         10 | smk-ds.lmerSLMA                                                
+⠋ |         11 | smk-ds.lmerSLMA                                                
+⠙ |         12 | smk-ds.lmerSLMA                                                
+⠹ |         13 | smk-ds.lmerSLMA                                                
+⠸ |         14 | smk-ds.lmerSLMA                                                
+⠧ |         18 | smk-ds.lmerSLMA                                                
+⠋ |         21 | smk-ds.lmerSLMA                                                
+⠧ |         48 | smk-ds.lmerSLMA                                                
+✔ |         77 | smk-ds.lmerSLMA [16.7s]
+
+⠏ |          0 | smk-ds.log                                                     
+⠋ |          1 | smk-ds.log                                                     
+⠸ |          4 | smk-ds.log                                                     
+⠙ |         12 | smk-ds.log                                                     
+⠇ |         19 | smk-ds.log                                                     
+⠦ |         27 | smk-ds.log                                                     
+✔ |         36 | smk-ds.log [7.1s]
+
+⠏ |          0 | smk-ds.look                                                    
+⠋ |          1 | smk-ds.look                                                    
+⠇ |          9 | smk-ds.look                                                    
+✔ |         11 | smk-ds.look [6.4s]
+
+⠏ |          0 | smk-ds.ls                                                      
+⠋ |          1 | smk-ds.ls                                                      
+⠦ |         17 | smk-ds.ls                                                      
+⠦ |         37 | smk-ds.ls                                                      
+⠦ |         57 | smk-ds.ls                                                      
+✔ |         59 | smk-ds.ls [6.4s]
+
+⠏ |          0 | smk-ds.lspline                                                 
+⠋ |          1 | smk-ds.lspline                                                 
+⠸ |          4 | smk-ds.lspline                                                 
+⠋ |         11 | smk-ds.lspline                                                 
+✔ |         44 | smk-ds.lspline [6.8s]
+
+⠏ |          0 | smk-ds.make                                                    
+⠋ |          1 | smk-ds.make                                                    
+⠸ |          4 | smk-ds.make                                                    
+⠦ |          7 | smk-ds.make                                                    
+⠏ |         10 | smk-ds.make                                                    
+✔ |         15 | smk-ds.make [6.9s]
+
+⠏ |          0 | smk-ds.matrix                                                  
+⠋ |          1 | smk-ds.matrix                                                  
+⠸ |          4 | smk-ds.matrix                                                  
+⠏ |         10 | smk-ds.matrix                                                  
+✔ |         13 | smk-ds.matrix [6.5s]
+
+⠏ |          0 | smk-ds.matrixDet                                               
+⠋ |          1 | smk-ds.matrixDet                                               
+⠸ |          4 | smk-ds.matrixDet                                               
+⠋ |         11 | smk-ds.matrixDet                                               
+✔ |         13 | smk-ds.matrixDet [6.7s]
+
+⠏ |          0 | smk-ds.matrixDet.report                                        
+⠋ |          1 | smk-ds.matrixDet.report                                        
+⠸ |          4 | smk-ds.matrixDet.report                                        
+✔ |         20 | smk-ds.matrixDet.report [6.4s]
+
+⠏ |          0 | smk-ds.matrixDiag                                              
+⠋ |          1 | smk-ds.matrixDiag                                              
+⠸ |          4 | smk-ds.matrixDiag                                              
+⠦ |          7 | smk-ds.matrixDiag                                              
+⠋ |         11 | smk-ds.matrixDiag                                              
+⠧ |         18 | smk-ds.matrixDiag                                              
+✔ |         20 | smk-ds.matrixDiag [6.8s]
+
+⠏ |          0 | smk-ds.matrixDimnames                                          
+⠋ |          1 | smk-ds.matrixDimnames                                          
+⠸ |          4 | smk-ds.matrixDimnames                                          
+⠋ |         11 | smk-ds.matrixDimnames                                          
+✔ |         13 | smk-ds.matrixDimnames [6.5s]
+
+⠏ |          0 | smk-ds.matrixInvert                                            
+⠋ |          1 | smk-ds.matrixInvert                                            
+⠸ |          4 | smk-ds.matrixInvert                                            
+⠋ |         11 | smk-ds.matrixInvert                                            
+✔ |         13 | smk-ds.matrixInvert [6.6s]
+
+⠏ |          0 | smk-ds.matrixMult                                              
+⠋ |          1 | smk-ds.matrixMult                                              
+⠸ |          4 | smk-ds.matrixMult                                              
+⠧ |          8 | smk-ds.matrixMult                                              
+✔ |         13 | smk-ds.matrixMult [6.7s]
+
+⠏ |          0 | smk-ds.matrixTranspose                                         
+⠋ |          1 | smk-ds.matrixTranspose                                         
+⠸ |          4 | smk-ds.matrixTranspose                                         
+⠋ |         11 | smk-ds.matrixTranspose                                         
+✔ |         13 | smk-ds.matrixTranspose [6.6s]
+
+⠏ |          0 | smk-ds.mean                                                    
+⠋ |          1 | smk-ds.mean                                                    
+⠸ |          4 | smk-ds.mean                                                    
+⠦ |         27 | smk-ds.mean                                                    
+⠧ |         58 | smk-ds.mean                                                    
+⠇ |         89 | smk-ds.mean                                                    
+⠸ |         94 | smk-ds.mean                                                    
+⠦ |        117 | smk-ds.mean                                                    
+⠋ |        141 | smk-ds.mean                                                    
+⠧ |        148 | smk-ds.mean                                                    
+⠦ |        177 | smk-ds.mean                                                    
+✔ |        186 | smk-ds.mean [8.9s]
+
+⠏ |          0 | smk-ds.meanByClass                                             
+⠋ |          1 | smk-ds.meanByClass                                             
+⠸ |          4 | smk-ds.meanByClass                                             
+⠋ |         11 | smk-ds.meanByClass                                             
+⠧ |         18 | smk-ds.meanByClass                                             
+⠋ |         31 | smk-ds.meanByClass                                             
+✔ |         55 | smk-ds.meanByClass [11.0s]
+
+⠏ |          0 | smk-ds.meanSdGp                                                
+⠋ |          1 | smk-ds.meanSdGp                                                
+⠸ |          4 | smk-ds.meanSdGp                                                
+⠏ |         20 | smk-ds.meanSdGp                                                
+✔ |         30 | smk-ds.meanSdGp [6.6s]
+
+⠏ |          0 | smk-ds.merge                                                   
+⠋ |          1 | smk-ds.merge                                                   
+⠸ |          4 | smk-ds.merge                                                   
+⠇ |          9 | smk-ds.merge                                                   
+✔ |         13 | smk-ds.merge [8.0s]
+
+⠏ |          0 | smk-ds.message                                                 
+⠋ |          1 | smk-ds.message                                                 
+⠧ |          8 | smk-ds.message                                                 
+⠙ |         12 | smk-ds.message                                                 
+⠴ |         16 | smk-ds.message                                                 
+⠏ |         20 | smk-ds.message                                                 
+⠸ |         24 | smk-ds.message                                                 
+✔ |         26 | smk-ds.message [7.0s]
+
+⠏ |          0 | smk-ds.metadata                                                
+⠋ |          1 | smk-ds.metadata                                                
+⠋ |         11 | smk-ds.metadata                                                
+⠙ |         22 | smk-ds.metadata                                                
+✔ |         28 | smk-ds.metadata [6.4s]
+
+⠏ |          0 | smk-ds.mice                                                    
+⠋ |          1 | smk-ds.mice                                                    
+⠸ |          4 | smk-ds.mice                                                    
+⠼ |         25 | smk-ds.mice                                                    
+⠧ |         28 | smk-ds.mice                                                    
+⠇ |         49 | smk-ds.mice                                                    
+⠙ |         52 | smk-ds.mice                                                    
+⠼ |         55 | smk-ds.mice                                                    
+⠧ |         58 | smk-ds.mice                                                    
+⠋ |         61 | smk-ds.mice                                                    
+✔ |         66 | smk-ds.mice [19.8s]
+
+⠏ |          0 | smk-ds.names                                                   
+⠋ |          1 | smk-ds.names                                                   
+⠸ |          4 | smk-ds.names                                                   
+✔ |         16 | smk-ds.names [6.7s]
+
+⠏ |          0 | smk-ds.ns                                                      
+⠋ |          1 | smk-ds.ns                                                      
+⠸ |          4 | smk-ds.ns                                                      
+⠸ |         14 | smk-ds.ns                                                      
+✔ |         47 | smk-ds.ns [6.7s]
+
+⠏ |          0 | smk-ds.numNA                                                   
+⠋ |          1 | smk-ds.numNA                                                   
+⠸ |          4 | smk-ds.numNA                                                   
+⠧ |          8 | smk-ds.numNA                                                   
+⠙ |         12 | smk-ds.numNA                                                   
+✔ |         18 | smk-ds.numNA [6.5s]
+
+⠏ |          0 | smk-ds.qlspline                                                
+⠋ |          1 | smk-ds.qlspline                                                
+⠸ |          4 | smk-ds.qlspline                                                
+⠋ |         11 | smk-ds.qlspline                                                
+⠙ |         42 | smk-ds.qlspline                                                
+⠇ |         49 | smk-ds.qlspline                                                
+⠧ |         78 | smk-ds.qlspline                                                
+✔ |         80 | smk-ds.qlspline [7.3s]
+
+⠏ |          0 | smk-ds.quantileMean                                            
+⠋ |          1 | smk-ds.quantileMean                                            
+⠸ |          4 | smk-ds.quantileMean                                            
+⠹ |         13 | smk-ds.quantileMean                                            
+✔ |         43 | smk-ds.quantileMean [6.8s]
+
+⠏ |          0 | smk-ds.ranksSecure                                             
+⠋ |          1 | smk-ds.ranksSecure                                             
+⠸ |          4 | smk-ds.ranksSecure                                             
+⠼ |          5 | smk-ds.ranksSecure                                             
+⠇ |          9 | smk-ds.ranksSecure                                             
+⠏ |         20 | smk-ds.ranksSecure                                             
+⠋ |         21 | smk-ds.ranksSecure                                             
+⠼ |         25 | smk-ds.ranksSecure                                             
+⠴ |         36 | smk-ds.ranksSecure                                             
+⠦ |         47 | smk-ds.ranksSecure                                             
+✔ |         60 | smk-ds.ranksSecure [53.6s]
+
+⠏ |          0 | smk-ds.rbind                                                   
+⠋ |          1 | smk-ds.rbind                                                   
+⠸ |          4 | smk-ds.rbind                                                   
+⠇ |          9 | smk-ds.rbind                                                   
+✔ |         11 | smk-ds.rbind [6.8s]
+
+⠏ |          0 | smk-ds.rBinom                                                  
+⠋ |          1 | smk-ds.rBinom                                                  
+⠸ |          4 | smk-ds.rBinom                                                  
+✔ |         17 | smk-ds.rBinom [6.4s]
+
+⠏ |          0 | smk-ds.recodeLevels                                            
+⠋ |          1 | smk-ds.recodeLevels                                            
+⠸ |          4 | smk-ds.recodeLevels                                            
+⠼ |          5 | smk-ds.recodeLevels                                            
+⠙ |         12 | smk-ds.recodeLevels                                            
+⠹ |         13 | smk-ds.recodeLevels                                            
+✔ |         22 | smk-ds.recodeLevels [6.8s]
+
+⠏ |          0 | smk-ds.recodeValues                                            
+⠋ |          1 | smk-ds.recodeValues                                            
+⠸ |          4 | smk-ds.recodeValues                                            
+⠋ |         11 | smk-ds.recodeValues                                            
+✔ |         13 | smk-ds.recodeValues [6.5s]
+
+⠏ |          0 | smk-ds.rep-complex                                             
+⠋ |          1 | smk-ds.rep-complex                                             
+⠸ |          4 | smk-ds.rep-complex                                             
+⠦ |          7 | smk-ds.rep-complex                                             
+✔ |         12 | smk-ds.rep-complex [6.5s]
+
+⠏ |          0 | smk-ds.rep                                                     
+⠋ |          1 | smk-ds.rep                                                     
+⠸ |          4 | smk-ds.rep                                                     
+✔ |          9 | smk-ds.rep [6.6s]
+
+⠏ |          0 | smk-ds.replaceNA                                               
+⠋ |          1 | smk-ds.replaceNA                                               
+⠸ |          4 | smk-ds.replaceNA                                               
+⠼ |          5 | smk-ds.replaceNA                                               
+⠴ |          6 | smk-ds.replaceNA                                               
+✔ |          9 | smk-ds.replaceNA [8.4s]
+
+⠏ |          0 | smk-ds.reShape                                                 
+⠋ |          1 | smk-ds.reShape                                                 
+⠸ |          4 | smk-ds.reShape                                                 
+✔ |          9 | smk-ds.reShape [6.8s]
+
+⠏ |          0 | smk-ds.rm                                                      
+⠋ |          1 | smk-ds.rm                                                      
+⠏ |         20 | smk-ds.rm                                                      
+⠙ |         52 | smk-ds.rm                                                      
+⠧ |         68 | smk-ds.rm                                                      
+✔ |         86 | smk-ds.rm [7.7s]
+
+⠏ |          0 | smk-ds.rNorm                                                   
+⠋ |          1 | smk-ds.rNorm                                                   
+⠸ |          4 | smk-ds.rNorm                                                   
+✔ |         17 | smk-ds.rNorm [6.5s]
+
+⠏ |          0 | smk-ds.rowColCalc                                              
+⠋ |          1 | smk-ds.rowColCalc                                              
+⠸ |          4 | smk-ds.rowColCalc                                              
+⠧ |          8 | smk-ds.rowColCalc                                              
+✔ |         14 | smk-ds.rowColCalc [7.1s]
+
+⠏ |          0 | smk-ds.rPois                                                   
+⠋ |          1 | smk-ds.rPois                                                   
+⠸ |          4 | smk-ds.rPois                                                   
+✔ |         17 | smk-ds.rPois [6.5s]
+
+⠏ |          0 | smk-ds.rUnif                                                   
+⠋ |          1 | smk-ds.rUnif                                                   
+⠸ |          4 | smk-ds.rUnif                                                   
+✔ |         17 | smk-ds.rUnif [6.5s]
+
+⠏ |          0 | smk-ds.sample                                                  
+⠋ |          1 | smk-ds.sample                                                  
+⠸ |          4 | smk-ds.sample                                                  
+⠙ |         12 | smk-ds.sample                                                  
+⠇ |         39 | smk-ds.sample                                                  
+⠧ |         48 | smk-ds.sample                                                  
+⠧ |         68 | smk-ds.sample                                                  
+✔ |         75 | smk-ds.sample [7.4s]
+
+⠏ |          0 | smk-ds.seq                                                     
+⠋ |          1 | smk-ds.seq                                                     
+⠸ |          4 | smk-ds.seq                                                     
+⠦ |          7 | smk-ds.seq                                                     
+✔ |         12 | smk-ds.seq [6.5s]
+
+⠏ |          0 | smk-ds.setSeed                                                 
+⠋ |          1 | smk-ds.setSeed                                                 
+⠹ |         13 | smk-ds.setSeed                                                 
+✔ |         15 | smk-ds.setSeed [6.2s]
+
+⠏ |          0 | smk-ds.skewness                                                
+⠋ |          1 | smk-ds.skewness                                                
+⠸ |          4 | smk-ds.skewness                                                
+⠧ |         18 | smk-ds.skewness                                                
+⠙ |         32 | smk-ds.skewness                                                
+⠴ |         46 | smk-ds.skewness                                                
+⠏ |         60 | smk-ds.skewness                                                
+⠸ |         74 | smk-ds.skewness                                                
+⠙ |         82 | smk-ds.skewness                                                
+⠏ |         90 | smk-ds.skewness                                                
+⠧ |         98 | smk-ds.skewness                                                
+⠴ |        106 | smk-ds.skewness                                                
+⠸ |        114 | smk-ds.skewness                                                
+⠴ |        136 | smk-ds.skewness                                                
+⠧ |        158 | smk-ds.skewness                                                
+⠏ |        180 | smk-ds.skewness                                                
+⠙ |        202 | smk-ds.skewness                                                
+⠸ |        224 | smk-ds.skewness                                                
+⠧ |        238 | smk-ds.skewness                                                
+⠙ |        252 | smk-ds.skewness                                                
+⠴ |        266 | smk-ds.skewness                                                
+⠏ |        280 | smk-ds.skewness                                                
+⠸ |        294 | smk-ds.skewness                                                
+⠙ |        302 | smk-ds.skewness                                                
+⠏ |        310 | smk-ds.skewness                                                
+⠧ |        318 | smk-ds.skewness                                                
+⠴ |        326 | smk-ds.skewness                                                
+⠸ |        334 | smk-ds.skewness                                                
+⠴ |        356 | smk-ds.skewness                                                
+⠧ |        378 | smk-ds.skewness                                                
+⠏ |        400 | smk-ds.skewness                                                
+⠙ |        422 | smk-ds.skewness                                                
+⠸ |        444 | smk-ds.skewness                                                
+⠧ |        458 | smk-ds.skewness                                                
+⠙ |        472 | smk-ds.skewness                                                
+⠴ |        486 | smk-ds.skewness                                                
+⠏ |        500 | smk-ds.skewness                                                
+⠸ |        514 | smk-ds.skewness                                                
+⠙ |        522 | smk-ds.skewness                                                
+⠏ |        530 | smk-ds.skewness                                                
+⠧ |        538 | smk-ds.skewness                                                
+⠴ |        546 | smk-ds.skewness                                                
+⠸ |        554 | smk-ds.skewness                                                
+⠴ |        576 | smk-ds.skewness                                                
+⠧ |        598 | smk-ds.skewness                                                
+⠏ |        620 | smk-ds.skewness                                                
+⠙ |        642 | smk-ds.skewness                                                
+⠸ |        664 | smk-ds.skewness                                                
+✔ |        666 | smk-ds.skewness [15.3s]
+
+⠏ |          0 | smk-ds.sqrt                                                    
+⠋ |          1 | smk-ds.sqrt                                                    
+⠸ |          4 | smk-ds.sqrt                                                    
+⠏ |         10 | smk-ds.sqrt                                                    
+✔ |         16 | smk-ds.sqrt [6.6s]
+
+⠏ |          0 | smk-ds.subset                                                  
+⠋ |          1 | smk-ds.subset                                                  
+⠸ |          4 | smk-ds.subset                                                  
+⠧ |          8 | smk-ds.subset                                                  
+⠙ |         12 | smk-ds.subset                                                  
+✔ |         18 | smk-ds.subset [7.4s]
+
+⠏ |          0 | smk-ds.subsetByClass                                           
+⠋ |          1 | smk-ds.subsetByClass                                           
+⠸ |          4 | smk-ds.subsetByClass                                           
+⠼ |         15 | smk-ds.subsetByClass                                           
+⠸ |         24 | smk-ds.subsetByClass                                           
+✔ |         28 | smk-ds.subsetByClass [7.1s]
+
+⠏ |          0 | smk-ds.summary                                                 
+⠋ |          1 | smk-ds.summary                                                 
+⠸ |          4 | smk-ds.summary                                                 
+⠦ |         17 | smk-ds.summary                                                 
+⠏ |         20 | smk-ds.summary                                                 
+⠙ |         22 | smk-ds.summary                                                 
+⠸ |         44 | smk-ds.summary                                                 
+⠸ |         54 | smk-ds.summary                                                 
+✔ |         62 | smk-ds.summary [8.5s]
+
+⠏ |          0 | smk-ds.table                                                   
+⠋ |          1 | smk-ds.table                                                   
+⠸ |          4 | smk-ds.table                                                   
+⠦ |          7 | smk-ds.table                                                   
+⠴ |         16 | smk-ds.table                                                   
+⠙ |         32 | smk-ds.table                                                   
+⠴ |         36 | smk-ds.table                                                   
+⠙ |         42 | smk-ds.table                                                   
+⠴ |         46 | smk-ds.table                                                   
+⠙ |         52 | smk-ds.table                                                   
+⠴ |         56 | smk-ds.table                                                   
+✔ |         62 | smk-ds.table [10.0s]
+
+⠏ |          0 | smk-ds.table1D                                                 
+⠋ |          1 | smk-ds.table1D                                                 
+⠸ |          4 | smk-ds.table1D                                                 
+⠧ |          8 | smk-ds.table1D                                                 
+⠼ |         15 | smk-ds.table1D                                                 
+⠙ |         22 | smk-ds.table1D                                                 
+⠙ |         32 | smk-ds.table1D                                                 
+✔ |         38 | smk-ds.table1D [7.0s]
+
+⠏ |          0 | smk-ds.table2D                                                 
+⠋ |          1 | smk-ds.table2D                                                 
+⠸ |          4 | smk-ds.table2D                                                 
+✔ |         29 | smk-ds.table2D [6.5s]
+
+⠏ |          0 | smk-ds.tapply.assign                                           
+⠋ |          1 | smk-ds.tapply.assign                                           
+⠸ |          4 | smk-ds.tapply.assign                                           
+⠙ |         12 | smk-ds.tapply.assign                                           
+⠏ |         20 | smk-ds.tapply.assign                                           
+⠧ |         28 | smk-ds.tapply.assign                                           
+✔ |         38 | smk-ds.tapply.assign [7.8s]
+
+⠏ |          0 | smk-ds.tapply                                                  
+⠋ |          1 | smk-ds.tapply                                                  
+⠸ |          4 | smk-ds.tapply                                                  
+⠴ |         26 | smk-ds.tapply                                                  
+⠧ |         48 | smk-ds.tapply                                                  
+⠏ |         70 | smk-ds.tapply                                                  
+✔ |         82 | smk-ds.tapply [7.1s]
+
+⠏ |          0 | smk-ds.testObjExists-discordant                                
+⠋ |          1 | smk-ds.testObjExists-discordant                                
+⠴ |          6 | smk-ds.testObjExists-discordant                                
+✔ |         26 | smk-ds.testObjExists-discordant [6.4s]
+
+⠏ |          0 | smk-ds.testObjExists                                           
+⠋ |          1 | smk-ds.testObjExists                                           
+⠴ |          6 | smk-ds.testObjExists                                           
+⠴ |         26 | smk-ds.testObjExists                                           
+✔ |         46 | smk-ds.testObjExists [6.7s]
+
+⠏ |          0 | smk-ds.unique                                                  
+⠋ |          1 | smk-ds.unique                                                  
+⠇ |          9 | smk-ds.unique                                                  
+✔ |         17 | smk-ds.unique [6.4s]
+
+⠏ |          0 | smk-ds.unList                                                  
+⠋ |          1 | smk-ds.unList                                                  
+⠸ |          4 | smk-ds.unList                                                  
+✔ |          9 | smk-ds.unList [6.6s]
+
+⠏ |          0 | smk-ds.var                                                     
+⠋ |          1 | smk-ds.var                                                     
+⠴ |         16 | smk-ds.var                                                     
+⠧ |         28 | smk-ds.var                                                     
+⠸ |         34 | smk-ds.var                                                     
+✔ |         60 | smk-ds.var [6.4s]
+
+⠏ |          0 | smk-ds.vectorCalc                                              
+⠋ |          1 | smk-ds.vectorCalc                                              
+⠸ |          4 | smk-ds.vectorCalc                                              
+⠹ |         13 | smk-ds.vectorCalc                                              
+✔ |         24 | smk-ds.vectorCalc [6.4s]
+
+⠏ |          0 | smk-isDefined                                                  
+⠋ |          1 | smk-isDefined                                                  
+⠏ |         10 | smk-isDefined                                                  
+⠧ |         18 | smk-isDefined                                                  
+⠏ |         20 | smk-isDefined                                                  
+⠙ |         22 | smk-isDefined                                                  
+⠇ |         29 | smk-isDefined                                                  
+⠋ |         41 | smk-isDefined                                                  
+⠸ |         54 | smk-isDefined                                                  
+⠴ |         66 | smk-isDefined                                                  
+⠧ |         78 | smk-isDefined                                                  
+⠏ |         90 | smk-isDefined                                                  
+⠧ |         98 | smk-isDefined                                                  
+⠏ |        100 | smk-isDefined                                                  
+⠹ |        103 | smk-isDefined                                                  
+⠇ |        109 | smk-isDefined                                                  
+✔ |        111 | smk-isDefined [7.7s]
+
+══ Results ═════════════════════════════════════════════════════════════════════
+Duration: 2588.8 s
+
+── Skipped tests (12) ──────────────────────────────────────────────────────────
+• empty test (12): 'test-disc-ds.cor.R:60:1', 'test-disc-ds.cor.R:94:1',
+  'test-disc-ds.cov.R:65:1', 'test-disc-ds.cov.R:93:1',
+  'test-disc-ds.levels.R:28:1', 'test-disc-ds.mean.R:23:1',
+  'test-disc-ds.meanByClass.R:25:1', 'test-disc-ds.var.R:23:1',
+  'test-expt-ds.reshape.R:18:1', 'test-smk_expt-ds.mean.R:44:1',
+  'test-smk_expt-ds.mean.R:51:1', 'test-smk_expt-ds.mean.R:58:1'
+
+── Failed tests ────────────────────────────────────────────────────────────────
+Failure ('test-perf-ds.abs.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 5.65 >= 5.35
+Difference: 0.30 >= 0
+
+Failure ('test-perf-ds.asInteger.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 5.21 >= 4.59
+Difference: 0.63 >= 0
+
+Failure ('test-perf-ds.asList.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 11.5 >= 9.2
+Difference: 2.3 >= 0
+
+Failure ('test-perf-ds.asNumeric.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 5.21 >= 4.37
+Difference: 0.84 >= 0
+
+Failure ('test-perf-ds.class.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 11.5 >= 9.5
+Difference: 2.0 >= 0
+
+Failure ('test-perf-ds.colnames.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.0 >= 19.2
+Difference: 3.9 >= 0
+
+Failure ('test-perf-ds.exists.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.4 >= 22.2
+Difference: 1.2 >= 0
+
+Failure ('test-perf-ds.length.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.4 >= 19.0
+Difference: 4.5 >= 0
+
+Failure ('test-perf-ds.mean.R:50:5'): combine - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.5 >= 19.3
+Difference: 4.2 >= 0
+
+Failure ('test-perf-ds.mean.R:81:5'): split - performance
+Expected Observed rate < upper threshold on rate.
+Actual comparison: 23.10 >= 22.52
+Difference: 0.58 >= 0
+
+[ FAIL 10 | WARN 0 | SKIP 12 | PASS 10422 ]
+

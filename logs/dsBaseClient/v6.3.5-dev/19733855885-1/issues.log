@@ -1,0 +1,9 @@
+  <testsuite name="perf-ds.abs" timestamp="2025-11-27T11:50:05Z" hostname="runnervmg1sw1" tests="2" skipped="0" failures="1" errors="0" time="36.07">
+  <testsuite name="perf-ds.asInteger" timestamp="2025-11-27T11:50:41Z" hostname="runnervmg1sw1" tests="2" skipped="0" failures="1" errors="0" time="36.185">
+  <testsuite name="perf-ds.asList" timestamp="2025-11-27T11:51:17Z" hostname="runnervmg1sw1" tests="2" skipped="0" failures="1" errors="0" time="36.098">
+  <testsuite name="perf-ds.asNumeric" timestamp="2025-11-27T11:51:54Z" hostname="runnervmg1sw1" tests="2" skipped="0" failures="1" errors="0" time="36.293">
+  <testsuite name="perf-ds.class" timestamp="2025-11-27T11:53:06Z" hostname="runnervmg1sw1" tests="2" skipped="0" failures="1" errors="0" time="36.136">
+  <testsuite name="perf-ds.colnames" timestamp="2025-11-27T11:53:42Z" hostname="runnervmg1sw1" tests="2" skipped="0" failures="1" errors="0" time="36.068">
+  <testsuite name="perf-ds.exists" timestamp="2025-11-27T11:54:18Z" hostname="runnervmg1sw1" tests="2" skipped="0" failures="1" errors="0" time="36.025">
+  <testsuite name="perf-ds.length" timestamp="2025-11-27T11:54:54Z" hostname="runnervmg1sw1" tests="2" skipped="0" failures="1" errors="0" time="36.023">
+  <testsuite name="perf-ds.mean" timestamp="2025-11-27T11:55:30Z" hostname="runnervmg1sw1" tests="4" skipped="0" failures="2" errors="0" time="66.033">
