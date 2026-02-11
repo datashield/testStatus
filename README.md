@@ -56,3 +56,12 @@ The workflow follows the following steps:
     ``` sh
     Rscript --verbose --vanilla source/render_docs.R docs docs TRUE
     ```
+
+### Notes
+
+- The tests’ results for `dsBaseClient` v6.0.1 and v6.1 have a different
+  format, so these have been excluded from future renders; logs were
+  deleted in
+  [1ab9d06fde39979c5ef3cf36dbfaff472795a1fc](https://github.com/datashield/testStatus/commit/1ab9d06fde39979c5ef3cf36dbfaff472795a1fc);
+  as the regex created for newer versions of `dsBaseClient` was not
+  compatible.
