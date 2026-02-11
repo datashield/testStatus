@@ -4,3 +4,4 @@
 .Ruserdata
 *.DS_Store
 *.Rproj
+*_covr_and_test_results.*
