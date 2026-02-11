@@ -80,13 +80,13 @@ tests_tbl_v2 <- tests_tbl |>
   dplyr::mutate(
     # extract function name
     fn_name = name |>
-      stringr::str_remove("::test[s]*") |>
+      stringr::str_remove("(?=::test).*") |>
       stringr::str_remove(FN_TEST_CLASS_PATTERN) |>
       stringr::str_extract(FN_NAME_PATTERN) |>
       stringr::str_remove_all("[\\(\\)]"),
     # extract any additional components to the test file
     fn_name_sub = name |>
-      stringr::str_remove("::test[s]*") |>
+      stringr::str_remove("(?=::test).*") |>
       stringr::str_remove(FN_TEST_CLASS_PATTERN) |>
       stringr::str_remove(fn_name) |>
       stringr::str_extract("^[^:-]+") |>
