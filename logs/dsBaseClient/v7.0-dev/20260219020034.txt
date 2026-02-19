@@ -1,0 +1,4 @@
+branch:v7.0-dev
+os:Ubuntu 24.04.4 LTS
+R:R version 4.5.2 (2025-10-31) -- "[Not] Part in a Rumble"
+opal:
