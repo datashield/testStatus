@@ -1,8 +1,8 @@
 name: Collect dsBase test suite results
 
 on:
-  schedule:
-    - cron: "0 1 * * 1"        # run at 1AM UTC on Mondays
+  # schedule:
+  #   - cron: "0 1 * * 1"        # run at 1AM UTC on Mondays
   workflow_dispatch:           # allow manual triggering
 
 jobs:
