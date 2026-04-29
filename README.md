@@ -1,3 +1,5 @@
+This repo has been archived. The updated testing framework is at <a href='https://tests.datashield.org'>https://tests.datashield.org</a> and the code running it is at <a href='https://github.com/FederatedMethods/testsDashboard'>https://github.com/FederatedMethods/testsDashboard</a>.
+
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
